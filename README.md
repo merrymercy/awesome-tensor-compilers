@@ -16,8 +16,8 @@
 ## Papers
 
 ### Compiler 
-- [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](https://www.usenix.org/conference/osdi18/presentation/chen), Tianqi Chen et al., OSDI 2018
-- [Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines](http://people.csail.mit.edu/jrk/halide-pldi13.pdf), Jonathan Ragan-Kelley et al., PLDI 2013
+- [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](https://www.usenix.org/conference/osdi18/presentation/chen) Tianqi Chen et al., OSDI 2018
+- [Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines](http://people.csail.mit.edu/jrk/halide-pldi13.pdf) Jonathan Ragan-Kelley et al., PLDI 2013
 
 ### Auto-tuning and auto-scheduling
 
