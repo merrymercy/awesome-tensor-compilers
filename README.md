@@ -6,7 +6,7 @@
   - [Auto-tuning and Auto-scheduling](#auto-tuning-and-auto-scheduling)
   - [Cost Model](#cost-model)
   - [CPU Optimizaiton](#cpu-optimizaiton)
-  - [GPU Optimizaiton](#gpu-optimizaiton)
+  - [GPU Optimizaiton](#gpu-optimization)
   - [Graph-level Optimization](#graph-level-optimization)
 - [Tutorials](#tutorials)
 
