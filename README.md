@@ -83,7 +83,9 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Automatic Kernel Generation for Volta Tensor Cores](https://arxiv.org/abs/2006.12645) by Somashekaracharya G. Bhaskaracharya et al., arXiv 2020
 
 ### Graph-level Optimization
+- [Optimizing DNN Computation Graph using Graph Substitutions](http://www.vldb.org/pvldb/vol13/p2734-fang.pdf) by Jingzhi Fang et al., VLDB 2020
 - [Transferable Graph Optimizers for ML Compilers](https://proceedings.neurips.cc/paper/2020/file/9f29450d2eb58feb555078bdefe28aa5-Paper.pdf) by Yanqi Zhou et al., NeurIPS 2020
+- [FusionStitching: Boosting Memory IntensiveComputations for Deep Learning Workloads](https://arxiv.org/pdf/2009.10924.pdf) by Zhen Zheng et al., arXiv 2020
 
 ## Tutorials
 - [Dive into Deep Learning Compiler](https://tvm.d2l.ai/)
