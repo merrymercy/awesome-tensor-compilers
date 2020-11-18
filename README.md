@@ -6,14 +6,14 @@
 - [Tiramisu: A Polyhedral Compiler for Expressing Fast and Portable Code](http://tiramisu-compiler.org/)
 - [XLA: Optimizing Compiler for Machine Learning](https://www.tensorflow.org/xla)
 - [MLIR: Multi-Level Intermediate Representation](https://mlir.llvm.org/)
-- [Hummingbird](https://github.com/microsoft/hummingbird)
-- [nnfusion](https://github.com/microsoft/nnfusion)
+- [Hummingbird: Compiling Trained ML Models into Tensor Computation](https://github.com/microsoft/hummingbird)
+- [nnfusion: A Flexible and Efficient Deep Neural Network Compiler](https://github.com/microsoft/nnfusion)
 - [nGraph: An Open Source C++ library, compiler and runtime for Deep Learning](https://www.ngraph.ai/)
 - [PlaidML: A Platform for Making Deep Learning Work Everywhere](https://www.intel.com/content/www/us/en/artificial-intelligence/plaidml.html)
 - [Glow: Compiler for Neural Network Hardware Accelerators](https://github.com/pytorch/glow)
 - [TACO: The Tensor Algebra Compiler](http://tensor-compiler.org/)
 - [TASO: The Tensor Algebra SuperOptimizer for Deep Learning](https://github.com/jiazhihao/TASO)
-- [Triton](https://github.com/ptillet/triton)
+- [Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations](https://github.com/ptillet/triton)
 - [DLVM: Modern Compiler Infrastructure for Deep Learning Systems](https://dlvm-team.github.io/)
 
 ## Papers
