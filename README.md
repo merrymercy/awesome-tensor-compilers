@@ -28,7 +28,7 @@
 - [MLIR: A Compiler Infrastructure for the End of Moore's Law](https://arxiv.org/abs/2002.11054) by Chris Lattner et al., arXiv 2020
 - [TASO: The Tensor Algebra SuperOptimizer for Deep Learning](https://dl.acm.org/doi/pdf/10.1145/3341301.3359630?casa_token=dYBNBVyhmV0AAAAA:zD-feoFh6susJzp9mE6KKsffaV94Ec-LJxJL-GQoA_16mTjXtYL3q0Xqiuh5jdD5PAuhyHH1lPWkGQ) by Zhihao Jia et al., SOSP 2019
 - [Tiramisu: A polyhedral compiler for expressing fast and portable code](https://arxiv.org/abs/1804.10694) by Riyadh Baghdadi et al., CGO 2019
-- [Triton: an intermediate language and compiler for tiled neural network computations] by Philippe Tillet et al., MAPL 2019
+- [Triton: an intermediate language and compiler for tiled neural network computations](https://dl.acm.org/doi/pdf/10.1145/3315508.3329973?casa_token=w0MaltEBfKYAAAAA:X27ScRTBiDR3WfL1VKTuU34wXJhr0r4H32JEcFe-DkmkJogCDG9dG7Tvp45sR9aB5tUKwky_hE25xg) by Philippe Tillet et al., MAPL 2019
 - [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](https://www.usenix.org/conference/osdi18/presentation/chen) by Tianqi Chen et al., OSDI 2018
 - [Tensor Comprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions](https://arxiv.org/abs/1802.04730) by Nicolas Vasilache et al., arXiv 2018
 - [Intel nGraph: An Intermediate Representation, Compiler, and Executor for Deep Learning](https://arxiv.org/abs/1801.08058) by Scott Cyphers et al., arXiv 2018
