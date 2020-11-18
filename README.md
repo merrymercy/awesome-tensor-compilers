@@ -85,7 +85,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 ### Graph-level Optimization
 - [Transferable Graph Optimizers for ML Compilers](https://proceedings.neurips.cc/paper/2020/file/9f29450d2eb58feb555078bdefe28aa5-Paper.pdf) by Yanqi Zhou et al., NeurIPS 2020
 
-### Tutorials
+## Tutorials
 - [Dive into Deep Learning Compiler](https://tvm.d2l.ai/)
 
 
