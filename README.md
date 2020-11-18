@@ -1,3 +1,15 @@
+# Content
+- [Open Source Projects](#open-source-projects)
+- [Papers](#papers)
+  - [Survey](#survey)
+  - [Compiler](#compiler)
+  - [Auto-tuning and Auto-scheduling](#auto-tuning-and-auto-scheduling)
+  - [Cost Model](#cost-model)
+  - [CPU Optimizaitons](#cpu-optimizaitons)
+  - [GPU Optimizaitons](#gpu-optimizaitons)
+  - [Graph-level Optimizations](#graph-level-optimizations)
+- [Tutorials](#tutorials)
+
 ## Open Source Projects
 
 - [TVM:  An End to End Deep Learning Compiler Stack ](https://tvm.apache.org/)
@@ -18,7 +30,7 @@
 
 ## Papers
 
-### Review Paper
+### Survey
 - [The Deep Learning Compiler: A Comprehensive Survey](https://arxiv.org/pdf/2002.03794.pdf) by Mingzhen Li et al., TPDS 2020
 - [An In-depth Comparison of Compilers for DeepNeural Networks on Hardware](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8782480&casa_token=mzwyH78qqnoAAAAA:CrQHJ9e4ToeRw7hvB90cCHU3QVzPshRju---blvfOJvJwRvy0gfpvrrooayO1wGDUOh1Evw2LMI) by Yu Xing et al., ICESS 2019
 
@@ -66,3 +78,6 @@
 
 ### Graph-level Optimizations
 - [Transferable Graph Optimizers for ML Compilers](https://proceedings.neurips.cc/paper/2020/file/9f29450d2eb58feb555078bdefe28aa5-Paper.pdf) by et al., NeurIPS 2020
+
+## Tutorials
+- [Dive into Deep Learning Compiler](https://tvm.d2l.ai/)
