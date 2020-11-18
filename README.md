@@ -90,5 +90,5 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 
 
 ## Contribute
-We encourage all contributions to this repository. Open an [issue]https://github.com/merrymercy/awesome-tensor-compilers/issues) or send a [pull request](https://github.com/merrymercy/awesome-tensor-compilers/pulls).
+We encourage all contributions to this repository. Open an [issue](https://github.com/merrymercy/awesome-tensor-compilers/issues) or send a [pull request](https://github.com/merrymercy/awesome-tensor-compilers/pulls).
 
