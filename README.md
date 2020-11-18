@@ -50,7 +50,7 @@
 - [Learning to Optimize Tensor Programs](https://arxiv.org/abs/1805.08166) by Tianqi Chen et al., NeurIPS 2018
 - [Automatically Scheduling Halide Image Processing Pipelines](http://graphics.cs.cmu.edu/projects/halidesched/) by Ravi Teja Mullapudi et al., SIGGRAPH 2016
 
-## Cost Model
+### Cost Model
 - [A Deep Learning Based Cost Model for Automatic Code Optimization in Tiramisu](https://www.researchgate.net/profile/Massinissa_Merouani/publication/344948008_A_Deep_Learning_Based_Cost_Model_for_Automatic_Code_Optimization_in_Tiramisu/links/5f9a79b2458515b7cfa73e8d/A-Deep-Learning-Based-Cost-Model-for-Automatic-Code-Optimization-in-Tiramisu.pdf) by Massinissa Merouani et al., Graduation Thesis 2020
 - [A Learned Performance Model for the Tensor Processing Unit](https://arxiv.org/pdf/2008.01040.pdf) by Samuel J. Kaufman et al., arXiv 2020
 
@@ -60,4 +60,5 @@
 - [Optimizing CNN Model Inference on CPUs](https://www.usenix.org/system/files/atc19-liu-yizhi.pdf) by Yizhi Liu et al., ATC 2019
 
 ### GPU Optimizations
-
+- [Fireiron: A Data-Movement-Aware Scheduling Language for GPUs](https://dl.acm.org/doi/pdf/10.1145/3410463.3414632?casa_token=jQw5p7cYSOAAAAAA:Re5S2oGp3_ld1L4tyjoSPoJ8H26oLaGbsM8taHXW1majFMR7so2Gl_eN-RQNU21Sfm0Cf3rnHuqAJw) by Bastian Hagedorn et al., PACT 2020
+- [Automatic Kernel Generation for Volta Tensor Cores](https://arxiv.org/abs/2006.12645) by Somashekaracharya G. Bhaskaracharya et al., arXiv 2020
