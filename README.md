@@ -5,9 +5,9 @@
   - [Compiler](#compiler)
   - [Auto-tuning and Auto-scheduling](#auto-tuning-and-auto-scheduling)
   - [Cost Model](#cost-model)
-  - [CPU Optimizaitons](#cpu-optimizaitons)
-  - [GPU Optimizaitons](#gpu-optimizaitons)
-  - [Graph-level Optimizations](#graph-level-optimizations)
+  - [CPU Optimizaiton](#cpu-optimizaiton)
+  - [GPU Optimizaiton](#gpu-optimizaiton)
+  - [Graph-level Optimization](#graph-level-optimization)
 - [Tutorials](#tutorials)
 
 ## Open Source Projects
@@ -67,16 +67,16 @@
 - [A Deep Learning Based Cost Model for Automatic Code Optimization in Tiramisu](https://www.researchgate.net/profile/Massinissa_Merouani/publication/344948008_A_Deep_Learning_Based_Cost_Model_for_Automatic_Code_Optimization_in_Tiramisu/links/5f9a79b2458515b7cfa73e8d/A-Deep-Learning-Based-Cost-Model-for-Automatic-Code-Optimization-in-Tiramisu.pdf) by Massinissa Merouani et al., Graduation Thesis 2020
 - [A Learned Performance Model for the Tensor Processing Unit](https://arxiv.org/pdf/2008.01040.pdf) by Samuel J. Kaufman et al., arXiv 2020
 
-### CPU Optimizaitons
+### CPU Optimizaiton
 - [PolyDL: Polyhedral Optimizations for Creation of HighPerformance DL primitives](https://arxiv.org/pdf/2006.02230.pdf) by Sanket Tavarageri et al., arXiv 2020
 - [Automatic Generation of High-Performance Quantized Machine Learning Kernels](https://www.cs.utexas.edu/~bornholt/papers/quantized-cgo20.pdf) by Meghan Cowan et al., CGO 2020
 - [Optimizing CNN Model Inference on CPUs](https://www.usenix.org/system/files/atc19-liu-yizhi.pdf) by Yizhi Liu et al., ATC 2019
 
-### GPU Optimizations
+### GPU Optimization
 - [Fireiron: A Data-Movement-Aware Scheduling Language for GPUs](https://dl.acm.org/doi/pdf/10.1145/3410463.3414632?casa_token=jQw5p7cYSOAAAAAA:Re5S2oGp3_ld1L4tyjoSPoJ8H26oLaGbsM8taHXW1majFMR7so2Gl_eN-RQNU21Sfm0Cf3rnHuqAJw) by Bastian Hagedorn et al., PACT 2020
 - [Automatic Kernel Generation for Volta Tensor Cores](https://arxiv.org/abs/2006.12645) by Somashekaracharya G. Bhaskaracharya et al., arXiv 2020
 
-### Graph-level Optimizations
+### Graph-level Optimization
 - [Transferable Graph Optimizers for ML Compilers](https://proceedings.neurips.cc/paper/2020/file/9f29450d2eb58feb555078bdefe28aa5-Paper.pdf) by et al., NeurIPS 2020
 
 ## Tutorials
