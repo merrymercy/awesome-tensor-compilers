@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-YES-green.svg)](https://github.com/merrymercy/awesome-tensor-compilers/graphs/commit-activity)
 
-The list of awesome compiler projects and papers for tensor computation and deep learning. 
+A list of awesome compiler projects and papers for tensor computation and deep learning. 
 
 ## Contents
 - [Open Source Projects](#open-source-projects)
