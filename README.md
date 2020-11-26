@@ -14,6 +14,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
   - [CPU Optimizaiton](#cpu-optimizaiton)
   - [GPU Optimizaiton](#gpu-optimization)
   - [Graph-level Optimization](#graph-level-optimization)
+  - [Dynamic Model](#dynamic-model)
 - [Tutorials](#tutorials)
 
 ## Open Source Projects
@@ -90,6 +91,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 
 ### Dynamic Model
 - [Nimble: Efficiently Compiling Dynamic Neural Networks for Model Inference](https://arxiv.org/pdf/2006.03031.pdf) by Haichen Shen et al., arXiv 2020
+- [Cortex: A Compiler for Recursive Deep Learning Models](https://arxiv.org/pdf/2011.01383.pdf) by Pratik Fegade et al., arXiv 2020
 
 ## Tutorials
 - [Dive into Deep Learning Compiler](https://tvm.d2l.ai/)
