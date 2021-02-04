@@ -34,6 +34,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [TASO: The Tensor Algebra SuperOptimizer for Deep Learning](https://github.com/jiazhihao/TASO)
 - [Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations](https://github.com/ptillet/triton)
 - [DLVM: Modern Compiler Infrastructure for Deep Learning Systems](https://dlvm-team.github.io/)
+- [NN-512: A compiler that generates C99 code for neural net inference](https://nn-512.com/)
 
 ## Papers
 
