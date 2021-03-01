@@ -74,7 +74,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 
 ### Cost Model
 - [A Deep Learning Based Cost Model for Automatic Code Optimization in Tiramisu](https://www.researchgate.net/profile/Massinissa_Merouani/publication/344948008_A_Deep_Learning_Based_Cost_Model_for_Automatic_Code_Optimization_in_Tiramisu/links/5f9a79b2458515b7cfa73e8d/A-Deep-Learning-Based-Cost-Model-for-Automatic-Code-Optimization-in-Tiramisu.pdf) by Massinissa Merouani et al., Graduation Thesis 2020
-- [A Learned Performance Model for the Tensor Processing Unit](https://arxiv.org/pdf/2008.01040.pdf) by Samuel J. Kaufman et al., arXiv 2020
+- [A Learned Performance Model for the Tensor Processing Unit](https://arxiv.org/pdf/2008.01040.pdf) by Samuel J. Kaufman et al., MLSys 2021
 
 ### CPU Optimizaiton
 - [PolyDL: Polyhedral Optimizations for Creation of HighPerformance DL primitives](https://arxiv.org/pdf/2006.02230.pdf) by Sanket Tavarageri et al., arXiv 2020
@@ -89,10 +89,13 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Optimizing DNN Computation Graph using Graph Substitutions](http://www.vldb.org/pvldb/vol13/p2734-fang.pdf) by Jingzhi Fang et al., VLDB 2020
 - [Transferable Graph Optimizers for ML Compilers](https://proceedings.neurips.cc/paper/2020/file/9f29450d2eb58feb555078bdefe28aa5-Paper.pdf) by Yanqi Zhou et al., NeurIPS 2020
 - [FusionStitching: Boosting Memory IntensiveComputations for Deep Learning Workloads](https://arxiv.org/pdf/2009.10924.pdf) by Zhen Zheng et al., arXiv 2020
+- [Nimble: Lightweight and Parallel GPU Task Scheduling for Deep Learning](https://proceedings.neurips.cc/paper/2020/file/5f0ad4db43d8723d18169b2e4817a160-Paper.pdf) by Woosuk Kwon et al., Neurips 2020
+- [Equality Saturation for Tensor Graph Superoptimization](https://arxiv.org/pdf/2101.01332.pdf) by Yichen Yang et al., MLSys 2021
+- [IOS: An Inter-Operator Scheduler for CNN Acceleration](https://arxiv.org/pdf/2011.01302.pdf) by Yaoyao Ding et al., MLSys 2021
 
 ### Dynamic Model
-- [Nimble: Efficiently Compiling Dynamic Neural Networks for Model Inference](https://arxiv.org/pdf/2006.03031.pdf) by Haichen Shen et al., arXiv 2020
-- [Cortex: A Compiler for Recursive Deep Learning Models](https://arxiv.org/pdf/2011.01383.pdf) by Pratik Fegade et al., arXiv 2020
+- [Nimble: Efficiently Compiling Dynamic Neural Networks for Model Inference](https://arxiv.org/pdf/2006.03031.pdf) by Haichen Shen et al., MLSys 2021
+- [Cortex: A Compiler for Recursive Deep Learning Models](https://arxiv.org/pdf/2011.01383.pdf) by Pratik Fegade et al., MLSys 2021
 
 ## Tutorials
 - [Dive into Deep Learning Compiler](https://tvm.d2l.ai/)
