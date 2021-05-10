@@ -62,6 +62,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 
 ### Auto-tuning and Auto-scheduling
 
+- [Value Learning for Throughput Optimization of Deep Neural Networks](https://proceedings.mlsys.org/paper/2021/file/73278a4a86960eeb576a8fd4c9ec6997-Paper.pdf) by Benoit Steiner et al., MLSys 2021
 - [Ansor: Generating High-Performance Tensor Programs for Deep Learning](https://arxiv.org/abs/2006.06762) by Lianmin Zheng et al., OSDI 2020
 - [Schedule Synthesis for Halide Pipelines on GPUs](https://dl.acm.org/doi/fullHtml/10.1145/3406117) by Sioutas Savvas et al., TACO 2020
 - [FlexTensor: An Automatic Schedule Exploration and Optimization Framework for Tensor Computation on Heterogeneous System](https://dl.acm.org/doi/pdf/10.1145/3373376.3378508?casa_token=2mWk5Qp3Ll8AAAAA:67phDw6-xWqKmo9A2EMXhVwl8KhHOGU_MeYc0sGiORNtNQTP_IDYmTW1gFtapsPuV48i1U5FRmRNfg) by Size Zheng et al., ASPLOS 2020
