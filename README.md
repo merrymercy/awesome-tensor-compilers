@@ -1,10 +1,12 @@
 # Awesome Tensor Compilers
+
 ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-YES-green.svg)](https://github.com/merrymercy/awesome-tensor-compilers/graphs/commit-activity)
 
-A list of awesome compiler projects and papers for tensor computation and deep learning. 
+A list of awesome compiler projects and papers for tensor computation and deep learning.
 
 ## Contents
+
 - [Open Source Projects](#open-source-projects)
 - [Papers](#papers)
   - [Survey](#survey)
@@ -19,7 +21,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 
 ## Open Source Projects
 
-- [TVM:  An End to End Deep Learning Compiler Stack ](https://tvm.apache.org/)
+- [TVM: An End to End Deep Learning Compiler Stack ](https://tvm.apache.org/)
 - [Halide: A Language for Fast, Portable Computation on Images and Tensors](https://halide-lang.org/)
 - [TensorComprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions](https://facebookresearch.github.io/TensorComprehensions/)
 - [Tiramisu: A Polyhedral Compiler for Expressing Fast and Portable Code](http://tiramisu-compiler.org/)
@@ -35,14 +37,17 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations](https://github.com/ptillet/triton)
 - [DLVM: Modern Compiler Infrastructure for Deep Learning Systems](https://dlvm-team.github.io/)
 - [NN-512: A compiler that generates C99 code for neural net inference](https://nn-512.com/)
+- [Hub: Fastest unstructured dataset management for TensorFlow/PyTorch. Stream data real-time & version-control it](https://github.com/activeloopai/hub)
 
 ## Papers
 
 ### Survey
+
 - [The Deep Learning Compiler: A Comprehensive Survey](https://arxiv.org/pdf/2002.03794.pdf) by Mingzhen Li et al., TPDS 2020
 - [An In-depth Comparison of Compilers for DeepNeural Networks on Hardware](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8782480&casa_token=mzwyH78qqnoAAAAA:CrQHJ9e4ToeRw7hvB90cCHU3QVzPshRju---blvfOJvJwRvy0gfpvrrooayO1wGDUOh1Evw2LMI) by Yu Xing et al., ICESS 2019
 
 ### Compiler
+
 - [A Tensor Compiler for Unified Machine Learning Prediction Serving](https://www.usenix.org/conference/osdi20/presentation/nakandala) by Supun Nakandala et al., OSDI 2020
 - [Rammer: Enabling Holistic Deep Learning Compiler Optimizations with rTasks](https://www.usenix.org/conference/osdi20/presentation/ma) by Lingxiao Ma et al., OSDI 2020
 - [MLIR: A Compiler Infrastructure for the End of Moore's Law](https://arxiv.org/abs/2002.11054) by Chris Lattner et al., arXiv 2020
@@ -59,7 +64,6 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [The Tensor Algebra Compiler](https://dl.acm.org/doi/pdf/10.1145/3133901) by Fredrik Kjolstad et al., OOPSLA 2017
 - [Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines](http://people.csail.mit.edu/jrk/halide-pldi13.pdf) by Jonathan Ragan-Kelley et al., PLDI 2013
 
-
 ### Auto-tuning and Auto-scheduling
 
 - [Value Learning for Throughput Optimization of Deep Neural Networks](https://proceedings.mlsys.org/paper/2021/file/73278a4a86960eeb576a8fd4c9ec6997-Paper.pdf) by Benoit Steiner et al., MLSys 2021
@@ -74,24 +78,31 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Automatically Scheduling Halide Image Processing Pipelines](http://graphics.cs.cmu.edu/projects/halidesched/) by Ravi Teja Mullapudi et al., SIGGRAPH 2016
 
 ### Cost Model
+
 - [A Deep Learning Based Cost Model for Automatic Code Optimization in Tiramisu](https://www.researchgate.net/profile/Massinissa_Merouani/publication/344948008_A_Deep_Learning_Based_Cost_Model_for_Automatic_Code_Optimization_in_Tiramisu/links/5f9a79b2458515b7cfa73e8d/A-Deep-Learning-Based-Cost-Model-for-Automatic-Code-Optimization-in-Tiramisu.pdf) by Massinissa Merouani et al., Graduation Thesis 2020
 - [A Deep Learning Based Cost Model for Automatic Code Optimization](https://proceedings.mlsys.org/paper/2021/file/3def184ad8f4755ff269862ea77393dd-Paper.pdf) by Riyadh Baghdadi et al., MLSys 2021
 - [A Learned Performance Model for the Tensor Processing Unit](https://arxiv.org/pdf/2008.01040.pdf) by Samuel J. Kaufman et al., MLSys 2021
 - [DYNATUNE: Dynamic Tensor Program Optimization in Deep Neural Network Compilation](https://openreview.net/pdf/f2330b850544ed7b0157ff0411638fd7ee8aefc0.pdf) by Minjia Zhang et al., ICLR 2021
 
 ### CPU Optimizaiton
+
 - [PolyDL: Polyhedral Optimizations for Creation of HighPerformance DL primitives](https://arxiv.org/pdf/2006.02230.pdf) by Sanket Tavarageri et al., arXiv 2020
 - [Automatic Generation of High-Performance Quantized Machine Learning Kernels](https://www.cs.utexas.edu/~bornholt/papers/quantized-cgo20.pdf) by Meghan Cowan et al., CGO 2020
 - [Optimizing CNN Model Inference on CPUs](https://www.usenix.org/system/files/atc19-liu-yizhi.pdf) by Yizhi Liu et al., ATC 2019
 - [Analytical cache modeling and tilesize optimization for tensor contractions](https://dl.acm.org/doi/abs/10.1145/3295500.3356218) by Rui Li et al., SC 19
 - [Analytical characterization and design space exploration for optimization of CNNs](https://dl.acm.org/doi/abs/10.1145/3445814.3446759) by Rui Li et al., ASPLOS 2021
+
 ### GPU Optimization
+
 - [Fireiron: A Data-Movement-Aware Scheduling Language for GPUs](https://dl.acm.org/doi/pdf/10.1145/3410463.3414632?casa_token=jQw5p7cYSOAAAAAA:Re5S2oGp3_ld1L4tyjoSPoJ8H26oLaGbsM8taHXW1majFMR7so2Gl_eN-RQNU21Sfm0Cf3rnHuqAJw) by Bastian Hagedorn et al., PACT 2020
 - [Automatic Kernel Generation for Volta Tensor Cores](https://arxiv.org/abs/2006.12645) by Somashekaracharya G. Bhaskaracharya et al., arXiv 2020
+
 ### NPU Optimization
+
 - [AKG: Automatic Kernel Generation for Neural Processing Units using Polyhedral Transformations](https://www.di.ens.fr/~zhaojie/pldi2021-paper) by Jie Zhao et al., PLDI 2021
 
 ### Graph-level Optimization
+
 - [Optimizing DNN Computation Graph using Graph Substitutions](http://www.vldb.org/pvldb/vol13/p2734-fang.pdf) by Jingzhi Fang et al., VLDB 2020
 - [Transferable Graph Optimizers for ML Compilers](https://proceedings.neurips.cc/paper/2020/file/9f29450d2eb58feb555078bdefe28aa5-Paper.pdf) by Yanqi Zhou et al., NeurIPS 2020
 - [FusionStitching: Boosting Memory IntensiveComputations for Deep Learning Workloads](https://arxiv.org/pdf/2009.10924.pdf) by Zhen Zheng et al., arXiv 2020
@@ -100,13 +111,14 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [IOS: An Inter-Operator Scheduler for CNN Acceleration](https://arxiv.org/pdf/2011.01302.pdf) by Yaoyao Ding et al., MLSys 2021
 
 ### Dynamic Model
+
 - [Nimble: Efficiently Compiling Dynamic Neural Networks for Model Inference](https://arxiv.org/pdf/2006.03031.pdf) by Haichen Shen et al., MLSys 2021
 - [Cortex: A Compiler for Recursive Deep Learning Models](https://arxiv.org/pdf/2011.01383.pdf) by Pratik Fegade et al., MLSys 2021
 
 ## Tutorials
+
 - [Dive into Deep Learning Compiler](https://tvm.d2l.ai/)
 
-
 ## Contribute
-We encourage all contributions to this repository. Open an [issue](https://github.com/merrymercy/awesome-tensor-compilers/issues) or send a [pull request](https://github.com/merrymercy/awesome-tensor-compilers/pulls).
 
+We encourage all contributions to this repository. Open an [issue](https://github.com/merrymercy/awesome-tensor-compilers/issues) or send a [pull request](https://github.com/merrymercy/awesome-tensor-compilers/pulls).
