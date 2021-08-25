@@ -5,17 +5,22 @@
 A list of awesome compiler projects and papers for tensor computation and deep learning. 
 
 ## Contents
-- [Open Source Projects](#open-source-projects)
-- [Papers](#papers)
-  - [Survey](#survey)
-  - [Compiler](#compiler)
-  - [Auto-tuning and Auto-scheduling](#auto-tuning-and-auto-scheduling)
-  - [Cost Model](#cost-model)
-  - [CPU Optimizaiton](#cpu-optimizaiton)
-  - [GPU Optimizaiton](#gpu-optimization)
-  - [Graph-level Optimization](#graph-level-optimization)
-  - [Dynamic Model](#dynamic-model)
-- [Tutorials](#tutorials)
+- [Awesome Tensor Compilers](#awesome-tensor-compilers)
+  - [Contents](#contents)
+  - [Open Source Projects](#open-source-projects)
+  - [Papers](#papers)
+    - [Survey](#survey)
+    - [Compiler](#compiler)
+    - [Auto-tuning and Auto-scheduling](#auto-tuning-and-auto-scheduling)
+    - [Cost Model](#cost-model)
+    - [DataSet](#dataset)
+    - [CPU Optimizaiton](#cpu-optimizaiton)
+    - [GPU Optimization](#gpu-optimization)
+    - [NPU Optimization](#npu-optimization)
+    - [Graph-level Optimization](#graph-level-optimization)
+    - [Dynamic Model](#dynamic-model)
+  - [Tutorials](#tutorials)
+  - [Contribute](#contribute)
 
 ## Open Source Projects
 - [TVM:  An End to End Deep Learning Compiler Stack ](https://tvm.apache.org/)
@@ -81,6 +86,9 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [A Learned Performance Model for the Tensor Processing Unit](https://arxiv.org/pdf/2008.01040.pdf) by Samuel J. Kaufman et al., MLSys 2021
 - [DYNATUNE: Dynamic Tensor Program Optimization in Deep Neural Network Compilation](https://openreview.net/pdf/f2330b850544ed7b0157ff0411638fd7ee8aefc0.pdf) by Minjia Zhang et al., ICLR 2021
 - [MetaTune: Meta-Learning Based Cost Model for Fast and Efficient Auto-tuning Frameworks](https://arxiv.org/abs/2102.04199) by Jaehun Ryu et al., arxiv 2021
+
+### DataSet
+- [TenSet: A Large-scale Program Performance Dataset for Learned Tensor Compilers](https://openreview.net/pdf?id=aIfp8kLuvc9) by Lianmin Zheng., NeurIPS 2021
 
 ### CPU Optimizaiton
 - [PolyDL: Polyhedral Optimizations for Creation of HighPerformance DL primitives](https://arxiv.org/pdf/2006.02230.pdf) by Sanket Tavarageri et al., arXiv 2020
