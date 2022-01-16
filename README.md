@@ -19,7 +19,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
     - [NPU Optimization](#npu-optimization)
     - [Graph-level Optimization](#graph-level-optimization)
     - [Dynamic Model](#dynamic-model)
-    - [Distributed Machine Learning](#distributed-machine-learning)
+    - [Distributed Computing](#distributed-computing)
   - [Tutorials](#tutorials)
   - [Contribute](#contribute)
 
@@ -117,11 +117,11 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Nimble: Efficiently Compiling Dynamic Neural Networks for Model Inference](https://arxiv.org/pdf/2006.03031.pdf) by Haichen Shen et al., MLSys 2021
 - [Cortex: A Compiler for Recursive Deep Learning Models](https://arxiv.org/pdf/2011.01383.pdf) by Pratik Fegade et al., MLSys 2021
 
-### Distributed Machine Learning
+### Distributed Computing
 - [GSPMD: General and Scalable Parallelization for ML Computation Graphs](https://arxiv.org/abs/2105.04663) by Yuanzhong Xu et al., arXiv 2021
 - [OneFlow: Redesign the Distributed Deep Learning Framework from Scratch](https://arxiv.org/abs/2110.15032) by Jinhui Yuan et al., arXiv 2021
 - [Breaking the Computation and Communication Abstraction Barrier in Distributed Machine Learning Workloads](https://arxiv.org/abs/2105.05720) by Abhinav Jangda et al., arXiv 2021
-
+- [Distributed Halide](https://dl.acm.org/doi/pdf/10.1145/3016078.2851157) by Tyler Denniston et al., PPoPP 2016
 
 ## Tutorials
 - [Dive into Deep Learning Compiler](https://tvm.d2l.ai/)
