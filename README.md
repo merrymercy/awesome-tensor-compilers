@@ -80,6 +80,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Learning to Optimize Halide with Tree Search and Random Programs](https://halide-lang.org/papers/autoscheduler2019.html) by Andrew Adams et al., SIGGRAPH 2019
 - [Learning to Optimize Tensor Programs](https://arxiv.org/abs/1805.08166) by Tianqi Chen et al., NeurIPS 2018
 - [Automatically Scheduling Halide Image Processing Pipelines](http://graphics.cs.cmu.edu/projects/halidesched/) by Ravi Teja Mullapudi et al., SIGGRAPH 2016
+- [A Sparse Iteration Space Transformation Framework for Sparse Tensor Algebra](http://tensor-compiler.org/senanayake-oopsla20-taco-scheduling.pdf) by Ryan Senanayake et al. OOPSLA 2020
 
 ### Cost Model
 - [A Deep Learning Based Cost Model for Automatic Code Optimization in Tiramisu](https://www.researchgate.net/profile/Massinissa_Merouani/publication/344948008_A_Deep_Learning_Based_Cost_Model_for_Automatic_Code_Optimization_in_Tiramisu/links/5f9a79b2458515b7cfa73e8d/A-Deep-Learning-Based-Cost-Model-for-Automatic-Code-Optimization-in-Tiramisu.pdf) by Massinissa Merouani et al., Graduation Thesis 2020
@@ -116,6 +117,11 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 ### Dynamic Model
 - [Nimble: Efficiently Compiling Dynamic Neural Networks for Model Inference](https://arxiv.org/pdf/2006.03031.pdf) by Haichen Shen et al., MLSys 2021
 - [Cortex: A Compiler for Recursive Deep Learning Models](https://arxiv.org/pdf/2011.01383.pdf) by Pratik Fegade et al., MLSys 2021
+- [The CoRa Tensor Compiler: Compilation for Ragged Tensors with Minimal Padding](https://arxiv.org/pdf/2110.10221.pdf) by Pratik Fegade et al., MLSys 2022
+
+### Graph Neural Networks
+- [Seastar: vertex-centric programming for graph neural networks](http://www.cse.cuhk.edu.hk/~jcheng/papers/seastar_eurosys21.pdf) by Yidi Wu et al., Eurosys 2021 
+- [Graphiler: Optimizing Graph Neural Networks with Message Passing Data Flow Graph]() by Zhiqiang Xie et al., MLSys 2022
 
 ### Distributed Computing
 - [GSPMD: General and Scalable Parallelization for ML Computation Graphs](https://arxiv.org/abs/2105.04663) by Yuanzhong Xu et al., arXiv 2021
