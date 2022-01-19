@@ -14,8 +14,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
     - [Auto-tuning and Auto-scheduling](#auto-tuning-and-auto-scheduling)
     - [Cost Model](#cost-model)
     - [DataSet](#dataset)
-    - [CPU Optimizaiton](#cpu-optimizaiton)
-    - [GPU Optimization](#gpu-optimization)
+    - [CPU & GPU Optimizaiton](#cpu-and-gpu-optimizaiton)
     - [NPU Optimization](#npu-optimization)
     - [Graph-level Optimization](#graph-level-optimization)
     - [Dynamic Model](#dynamic-model)
@@ -44,8 +43,8 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 ## Papers
 
 ### Survey
-- [The Deep Learning Compiler: A Comprehensive Survey](https://arxiv.org/pdf/2002.03794.pdf) by Mingzhen Li et al., TPDS 2020
-- [An In-depth Comparison of Compilers for DeepNeural Networks on Hardware](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8782480&casa_token=mzwyH78qqnoAAAAA:CrQHJ9e4ToeRw7hvB90cCHU3QVzPshRju---blvfOJvJwRvy0gfpvrrooayO1wGDUOh1Evw2LMI) by Yu Xing et al., ICESS 2019
+- [The Deep Learning Compiler: A Comprehensive Survey](https://arxiv.org/abs/2002.03794) by Mingzhen Li et al., TPDS 2020
+- [An In-depth Comparison of Compilers for DeepNeural Networks on Hardware](https://ieeexplore.ieee.org/document/8782480) by Yu Xing et al., ICESS 2019
 
 ### Compiler
 - [DeepCuts: A deep learning optimization framework for versatile GPU workloads](https://pldi21.sigplan.org/details/pldi-2021-papers/13/DeepCuts-A-Deep-Learning-Optimization-Framework-for-Versatile-GPU-Workloads) by Wookeun Jung et al., PLDI 2021
@@ -53,75 +52,73 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [MLIR: Scaling Compiler Infrastructure for Domain Specific Computation](https://research.google/pubs/pub49988/) by Chris Lattner et al., CGO 2021
 - [A Tensor Compiler for Unified Machine Learning Prediction Serving](https://www.usenix.org/conference/osdi20/presentation/nakandala) by Supun Nakandala et al., OSDI 2020
 - [Rammer: Enabling Holistic Deep Learning Compiler Optimizations with rTasks](https://www.usenix.org/conference/osdi20/presentation/ma) by Lingxiao Ma et al., OSDI 2020
-- [MLIR: A Compiler Infrastructure for the End of Moore's Law](https://arxiv.org/abs/2002.11054) by Chris Lattner et al., arXiv 2020
-- [TASO: The Tensor Algebra SuperOptimizer for Deep Learning](https://dl.acm.org/doi/pdf/10.1145/3341301.3359630?casa_token=dYBNBVyhmV0AAAAA:zD-feoFh6susJzp9mE6KKsffaV94Ec-LJxJL-GQoA_16mTjXtYL3q0Xqiuh5jdD5PAuhyHH1lPWkGQ) by Zhihao Jia et al., SOSP 2019
+- [TASO: The Tensor Algebra SuperOptimizer for Deep Learning](https://dl.acm.org/doi/abs/10.1145/3341301.3359630) by Zhihao Jia et al., SOSP 2019
 - [Tiramisu: A polyhedral compiler for expressing fast and portable code](https://arxiv.org/abs/1804.10694) by Riyadh Baghdadi et al., CGO 2019
-- [Triton: an intermediate language and compiler for tiled neural network computations](https://dl.acm.org/doi/pdf/10.1145/3315508.3329973?casa_token=w0MaltEBfKYAAAAA:X27ScRTBiDR3WfL1VKTuU34wXJhr0r4H32JEcFe-DkmkJogCDG9dG7Tvp45sR9aB5tUKwky_hE25xg) by Philippe Tillet et al., MAPL 2019
-- [Relay: A High-Level Compiler for Deep Learning](https://arxiv.org/pdf/1904.08368.pdf) by Jared Roesch et al., arXiv 2019
+- [Triton: an intermediate language and compiler for tiled neural network computations](https://dl.acm.org/doi/abs/10.1145/3315508.3329973) by Philippe Tillet et al., MAPL 2019
+- [Relay: A High-Level Compiler for Deep Learning](https://arxiv.org/abs/1904.08368) by Jared Roesch et al., arXiv 2019
 - [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](https://www.usenix.org/conference/osdi18/presentation/chen) by Tianqi Chen et al., OSDI 2018
 - [Tensor Comprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions](https://arxiv.org/abs/1802.04730) by Nicolas Vasilache et al., arXiv 2018
 - [Intel nGraph: An Intermediate Representation, Compiler, and Executor for Deep Learning](https://arxiv.org/abs/1801.08058) by Scott Cyphers et al., arXiv 2018
 - [Glow: Graph Lowering Compiler Techniques for Neural Networks](https://arxiv.org/abs/1805.00907) by Nadav Rotem et al., arXiv 2018
-- [DLVM: A modern compiler infrastructure for deep learning systems](https://arxiv.org/pdf/1711.03016.pdf) by Richard Wei et al., arXiv 2018
-- [Diesel: DSL for linear algebra and neural net computations on GPUs](https://dl.acm.org/doi/pdf/10.1145/3211346.3211354) by Venmugil Elango et al., MAPL 2018
-- [The Tensor Algebra Compiler](https://dl.acm.org/doi/pdf/10.1145/3133901) by Fredrik Kjolstad et al., OOPSLA 2017
+- [DLVM: A modern compiler infrastructure for deep learning systems](https://arxiv.org/abs/1711.03016) by Richard Wei et al., arXiv 2018
+- [Diesel: DSL for linear algebra and neural net computations on GPUs](https://dl.acm.org/doi/abs/10.1145/3211346.3211354) by Venmugil Elango et al., MAPL 2018
+- [The Tensor Algebra Compiler](https://dl.acm.org/doi/abs/10.1145/3133901) by Fredrik Kjolstad et al., OOPSLA 2017
 - [Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines](http://people.csail.mit.edu/jrk/halide-pldi13.pdf) by Jonathan Ragan-Kelley et al., PLDI 2013
 
 
 ### Auto-tuning and Auto-scheduling
-- [Value Learning for Throughput Optimization of Deep Neural Networks](https://proceedings.mlsys.org/paper/2021/file/73278a4a86960eeb576a8fd4c9ec6997-Paper.pdf) by Benoit Steiner et al., MLSys 2021
+- [Lorien: Efficient Deep Learning Workloads Delivery](https://dl.acm.org/doi/abs/10.1145/3472883.3486973) by Cody Hao Yu et al., SoCC 2021
+- [Value Learning for Throughput Optimization of Deep Neural Networks](https://proceedings.mlsys.org/paper/2021/hash/73278a4a86960eeb576a8fd4c9ec6997-Abstract.html) by Benoit Steiner et al., MLSys 2021
 - [Ansor: Generating High-Performance Tensor Programs for Deep Learning](https://arxiv.org/abs/2006.06762) by Lianmin Zheng et al., OSDI 2020
 - [Schedule Synthesis for Halide Pipelines on GPUs](https://dl.acm.org/doi/fullHtml/10.1145/3406117) by Sioutas Savvas et al., TACO 2020
-- [FlexTensor: An Automatic Schedule Exploration and Optimization Framework for Tensor Computation on Heterogeneous System](https://dl.acm.org/doi/pdf/10.1145/3373376.3378508?casa_token=2mWk5Qp3Ll8AAAAA:67phDw6-xWqKmo9A2EMXhVwl8KhHOGU_MeYc0sGiORNtNQTP_IDYmTW1gFtapsPuV48i1U5FRmRNfg) by Size Zheng et al., ASPLOS 2020
+- [FlexTensor: An Automatic Schedule Exploration and Optimization Framework for Tensor Computation on Heterogeneous System](https://dl.acm.org/doi/abs/10.1145/3373376.3378508) by Size Zheng et al., ASPLOS 2020
 - [ProTuner: Tuning Programs with Monte Carlo Tree Search](https://arxiv.org/abs/2005.13685) by Ameer Haj-Ali et al., arXiv 2020
 - [AdaTune: Adaptive tensor program compilation made efficient](https://www.microsoft.com/en-us/research/uploads/prod/2020/10/nips20adatune.pdf) by Menghao Li et al., NeurIPS 2020
 - [Optimizing the Memory Hierarchy by Compositing Automatic Transformations on Computations and Data](https://www.microarch.org/micro53/papers/738300a427.pdf) by Jie Zhao et al., MICRO 2020
 - [Chameleon: Adaptive Code Optimization for Expedited Deep Neural Network Compilation](https://openreview.net/forum?id=rygG4AVFvH) by Byung Hoon Ahn et al., ICLR 2020
+- [A Sparse Iteration Space Transformation Framework for Sparse Tensor Algebra](http://tensor-compiler.org/senanayake-oopsla20-taco-scheduling.pdf) by Ryan Senanayake et al. OOPSLA 2020
 - [Learning to Optimize Halide with Tree Search and Random Programs](https://halide-lang.org/papers/autoscheduler2019.html) by Andrew Adams et al., SIGGRAPH 2019
 - [Learning to Optimize Tensor Programs](https://arxiv.org/abs/1805.08166) by Tianqi Chen et al., NeurIPS 2018
 - [Automatically Scheduling Halide Image Processing Pipelines](http://graphics.cs.cmu.edu/projects/halidesched/) by Ravi Teja Mullapudi et al., SIGGRAPH 2016
-- [A Sparse Iteration Space Transformation Framework for Sparse Tensor Algebra](http://tensor-compiler.org/senanayake-oopsla20-taco-scheduling.pdf) by Ryan Senanayake et al. OOPSLA 2020
 
 ### Cost Model
-- [A Deep Learning Based Cost Model for Automatic Code Optimization in Tiramisu](https://www.researchgate.net/profile/Massinissa_Merouani/publication/344948008_A_Deep_Learning_Based_Cost_Model_for_Automatic_Code_Optimization_in_Tiramisu/links/5f9a79b2458515b7cfa73e8d/A-Deep-Learning-Based-Cost-Model-for-Automatic-Code-Optimization-in-Tiramisu.pdf) by Massinissa Merouani et al., Graduation Thesis 2020
-- [A Deep Learning Based Cost Model for Automatic Code Optimization](https://proceedings.mlsys.org/paper/2021/file/3def184ad8f4755ff269862ea77393dd-Paper.pdf) by Riyadh Baghdadi et al., MLSys 2021
-- [A Learned Performance Model for the Tensor Processing Unit](https://arxiv.org/pdf/2008.01040.pdf) by Samuel J. Kaufman et al., MLSys 2021
+- [A Deep Learning Based Cost Model for Automatic Code Optimization](https://proceedings.mlsys.org/paper/2021/hash/3def184ad8f4755ff269862ea77393dd-Abstract.html) by Riyadh Baghdadi et al., MLSys 2021
+- [A Learned Performance Model for the Tensor Processing Unit](https://arxiv.org/abs/2008.01040) by Samuel J. Kaufman et al., MLSys 2021
 - [DYNATUNE: Dynamic Tensor Program Optimization in Deep Neural Network Compilation](https://openreview.net/pdf/f2330b850544ed7b0157ff0411638fd7ee8aefc0.pdf) by Minjia Zhang et al., ICLR 2021
 - [MetaTune: Meta-Learning Based Cost Model for Fast and Efficient Auto-tuning Frameworks](https://arxiv.org/abs/2102.04199) by Jaehun Ryu et al., arxiv 2021
 
 ### DataSet
 - [TenSet: A Large-scale Program Performance Dataset for Learned Tensor Compilers](https://openreview.net/pdf?id=aIfp8kLuvc9) by Lianmin Zheng., NeurIPS 2021
 
-### CPU Optimizaiton
-- [PolyDL: Polyhedral Optimizations for Creation of HighPerformance DL primitives](https://arxiv.org/pdf/2006.02230.pdf) by Sanket Tavarageri et al., arXiv 2020
+### CPU and GPU Optimizaiton
+- [Analytical characterization and design space exploration for optimization of CNNs](https://dl.acm.org/doi/abs/10.1145/3445814.3446759) by Rui Li et al., ASPLOS 2021
+- [UNIT: Unifying Tensorized Instruction Compilation](https://ieeexplore.ieee.org/abstract/document/9370330) by Jian Weng et al., CGO 2021
+- [PolyDL: Polyhedral Optimizations for Creation of HighPerformance DL primitives](https://arxiv.org/abs/2006.02230) by Sanket Tavarageri et al., arXiv 2020
 - [Automatic Generation of High-Performance Quantized Machine Learning Kernels](https://www.cs.utexas.edu/~bornholt/papers/quantized-cgo20.pdf) by Meghan Cowan et al., CGO 2020
+- [Fireiron: A Data-Movement-Aware Scheduling Language for GPUs](https://dl.acm.org/doi/abs/10.1145/3410463.3414632) by Bastian Hagedorn et al., PACT 2020
+- [Automatic Kernel Generation for Volta Tensor Cores](https://arxiv.org/abs/2006.12645) by Somashekaracharya G. Bhaskaracharya et al., arXiv 2020
 - [Optimizing CNN Model Inference on CPUs](https://www.usenix.org/system/files/atc19-liu-yizhi.pdf) by Yizhi Liu et al., ATC 2019
 - [Analytical cache modeling and tilesize optimization for tensor contractions](https://dl.acm.org/doi/abs/10.1145/3295500.3356218) by Rui Li et al., SC 19
-- [Analytical characterization and design space exploration for optimization of CNNs](https://dl.acm.org/doi/abs/10.1145/3445814.3446759) by Rui Li et al., ASPLOS 2021
-
-### GPU Optimization
-- [Fireiron: A Data-Movement-Aware Scheduling Language for GPUs](https://dl.acm.org/doi/pdf/10.1145/3410463.3414632?casa_token=jQw5p7cYSOAAAAAA:Re5S2oGp3_ld1L4tyjoSPoJ8H26oLaGbsM8taHXW1majFMR7so2Gl_eN-RQNU21Sfm0Cf3rnHuqAJw) by Bastian Hagedorn et al., PACT 2020
-- [Automatic Kernel Generation for Volta Tensor Cores](https://arxiv.org/abs/2006.12645) by Somashekaracharya G. Bhaskaracharya et al., arXiv 2020
 
 ### NPU Optimization
 - [AKG: Automatic Kernel Generation for Neural Processing Units using Polyhedral Transformations](https://www.di.ens.fr/~zhaojie/pldi2021-paper) by Jie Zhao et al., PLDI 2021
 
 ### Graph-level Optimization
+- [Equality Saturation for Tensor Graph Superoptimization](https://arxiv.org/abs/2101.01332) by Yichen Yang et al., MLSys 2021
+- [IOS: An Inter-Operator Scheduler for CNN Acceleration](https://arxiv.org/abs/2011.01302) by Yaoyao Ding et al., MLSys 2021
 - [Optimizing DNN Computation Graph using Graph Substitutions](http://www.vldb.org/pvldb/vol13/p2734-fang.pdf) by Jingzhi Fang et al., VLDB 2020
 - [Transferable Graph Optimizers for ML Compilers](https://proceedings.neurips.cc/paper/2020/file/9f29450d2eb58feb555078bdefe28aa5-Paper.pdf) by Yanqi Zhou et al., NeurIPS 2020
-- [FusionStitching: Boosting Memory IntensiveComputations for Deep Learning Workloads](https://arxiv.org/pdf/2009.10924.pdf) by Zhen Zheng et al., arXiv 2020
+- [FusionStitching: Boosting Memory IntensiveComputations for Deep Learning Workloads](https://arxiv.org/abs/2009.10924) by Zhen Zheng et al., arXiv 2020
 - [Nimble: Lightweight and Parallel GPU Task Scheduling for Deep Learning](https://proceedings.neurips.cc/paper/2020/file/5f0ad4db43d8723d18169b2e4817a160-Paper.pdf) by Woosuk Kwon et al., Neurips 2020
-- [Equality Saturation for Tensor Graph Superoptimization](https://arxiv.org/pdf/2101.01332.pdf) by Yichen Yang et al., MLSys 2021
-- [IOS: An Inter-Operator Scheduler for CNN Acceleration](https://arxiv.org/pdf/2011.01302.pdf) by Yaoyao Ding et al., MLSys 2021
 
 ### Dynamic Model
-- [Nimble: Efficiently Compiling Dynamic Neural Networks for Model Inference](https://arxiv.org/pdf/2006.03031.pdf) by Haichen Shen et al., MLSys 2021
-- [Cortex: A Compiler for Recursive Deep Learning Models](https://arxiv.org/pdf/2011.01383.pdf) by Pratik Fegade et al., MLSys 2021
-- [The CoRa Tensor Compiler: Compilation for Ragged Tensors with Minimal Padding](https://arxiv.org/pdf/2110.10221.pdf) by Pratik Fegade et al., MLSys 2022
+- [The CoRa Tensor Compiler: Compilation for Ragged Tensors with Minimal Padding](https://arxiv.org/abs/2110.10221) by Pratik Fegade et al., MLSys 2022
+- [Nimble: Efficiently Compiling Dynamic Neural Networks for Model Inference](https://arxiv.org/abs/2006.03031) by Haichen Shen et al., MLSys 2021
+- [Cortex: A Compiler for Recursive Deep Learning Models](https://arxiv.org/abs/2011.01383) by Pratik Fegade et al., MLSys 2021
 
 ### Graph Neural Networks
+- [Graphiler: Optimizing Graph Neural Networks with Message Passing Data Flow Graph](https://gnnsys.github.io/papers/GNNSys21_paper_10.pdf) by Zhiqiang Xie et al., MLSys 2022
 - [Seastar: vertex-centric programming for graph neural networks](http://www.cse.cuhk.edu.hk/~jcheng/papers/seastar_eurosys21.pdf) by Yidi Wu et al., Eurosys 2021 
-- [Graphiler: Optimizing Graph Neural Networks with Message Passing Data Flow Graph]() by Zhiqiang Xie et al., MLSys 2022
 
 ### Distributed Computing
 - [GSPMD: General and Scalable Parallelization for ML Computation Graphs](https://arxiv.org/abs/2105.04663) by Yuanzhong Xu et al., arXiv 2021
