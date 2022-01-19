@@ -13,7 +13,6 @@ A list of awesome compiler projects and papers for tensor computation and deep l
     - [Compiler](#compiler)
     - [Auto-tuning and Auto-scheduling](#auto-tuning-and-auto-scheduling)
     - [Cost Model](#cost-model)
-    - [DataSet](#dataset)
     - [CPU & GPU Optimizaiton](#cpu-and-gpu-optimizaiton)
     - [NPU Optimization](#npu-optimization)
     - [Graph-level Optimization](#graph-level-optimization)
@@ -82,13 +81,11 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Automatically Scheduling Halide Image Processing Pipelines](http://graphics.cs.cmu.edu/projects/halidesched/) by Ravi Teja Mullapudi et al., SIGGRAPH 2016
 
 ### Cost Model
+- [TenSet: A Large-scale Program Performance Dataset for Learned Tensor Compilers](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/a684eceee76fc522773286a895bc8436-Abstract-round1.html) by Lianmin Zheng., NeurIPS 2021
 - [A Deep Learning Based Cost Model for Automatic Code Optimization](https://proceedings.mlsys.org/paper/2021/hash/3def184ad8f4755ff269862ea77393dd-Abstract.html) by Riyadh Baghdadi et al., MLSys 2021
 - [A Learned Performance Model for the Tensor Processing Unit](https://arxiv.org/abs/2008.01040) by Samuel J. Kaufman et al., MLSys 2021
 - [DYNATUNE: Dynamic Tensor Program Optimization in Deep Neural Network Compilation](https://openreview.net/pdf/f2330b850544ed7b0157ff0411638fd7ee8aefc0.pdf) by Minjia Zhang et al., ICLR 2021
 - [MetaTune: Meta-Learning Based Cost Model for Fast and Efficient Auto-tuning Frameworks](https://arxiv.org/abs/2102.04199) by Jaehun Ryu et al., arxiv 2021
-
-### DataSet
-- [TenSet: A Large-scale Program Performance Dataset for Learned Tensor Compilers](https://openreview.net/pdf?id=aIfp8kLuvc9) by Lianmin Zheng., NeurIPS 2021
 
 ### CPU and GPU Optimizaiton
 - [Analytical characterization and design space exploration for optimization of CNNs](https://dl.acm.org/doi/abs/10.1145/3445814.3446759) by Rui Li et al., ASPLOS 2021
@@ -124,7 +121,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [GSPMD: General and Scalable Parallelization for ML Computation Graphs](https://arxiv.org/abs/2105.04663) by Yuanzhong Xu et al., arXiv 2021
 - [OneFlow: Redesign the Distributed Deep Learning Framework from Scratch](https://arxiv.org/abs/2110.15032) by Jinhui Yuan et al., arXiv 2021
 - [Breaking the Computation and Communication Abstraction Barrier in Distributed Machine Learning Workloads](https://arxiv.org/abs/2105.05720) by Abhinav Jangda et al., arXiv 2021
-- [Distributed Halide](https://dl.acm.org/doi/pdf/10.1145/3016078.2851157) by Tyler Denniston et al., PPoPP 2016
+- [Distributed Halide](https://dl.acm.org/doi/abs/10.1145/3016078.2851157) by Tyler Denniston et al., PPoPP 2016
 
 ## Tutorials
 - [Dive into Deep Learning Compiler](https://tvm.d2l.ai/)
