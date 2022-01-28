@@ -38,6 +38,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations](https://github.com/ptillet/triton)
 - [DLVM: Modern Compiler Infrastructure for Deep Learning Systems](https://dlvm-team.github.io/)
 - [NN-512: A compiler that generates C99 code for neural net inference](https://nn-512.com/)
+- [BladeDISC: An end-to-end DynamIc Shape Compiler project for machine learning workloads.](https://github.com/alibaba/BladeDISC)
 
 ## Papers
 
@@ -111,6 +112,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 ### Dynamic Model
 - [The CoRa Tensor Compiler: Compilation for Ragged Tensors with Minimal Padding](https://arxiv.org/abs/2110.10221) by Pratik Fegade et al., MLSys 2022
 - [Nimble: Efficiently Compiling Dynamic Neural Networks for Model Inference](https://arxiv.org/abs/2006.03031) by Haichen Shen et al., MLSys 2021
+- [DISC: A Dynamic Shape Compiler for Machine Learning Workloads](https://arxiv.org/pdf/2103.05288.pdf) by Kai Zhu et al., EuroMLSys 2021
 - [Cortex: A Compiler for Recursive Deep Learning Models](https://arxiv.org/abs/2011.01383) by Pratik Fegade et al., MLSys 2021
 
 ### Graph Neural Networks
