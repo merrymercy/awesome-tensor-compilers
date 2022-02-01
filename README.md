@@ -120,6 +120,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Seastar: vertex-centric programming for graph neural networks](http://www.cse.cuhk.edu.hk/~jcheng/papers/seastar_eurosys21.pdf) by Yidi Wu et al., Eurosys 2021 
 
 ### Distributed Computing
+- [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/abs/2201.12023) by Lianmin Zheng, Zhuohan Li, Hao Zhang et al., arXiv 2022
 - [GSPMD: General and Scalable Parallelization for ML Computation Graphs](https://arxiv.org/abs/2105.04663) by Yuanzhong Xu et al., arXiv 2021
 - [OneFlow: Redesign the Distributed Deep Learning Framework from Scratch](https://arxiv.org/abs/2110.15032) by Jinhui Yuan et al., arXiv 2021
 - [Breaking the Computation and Communication Abstraction Barrier in Distributed Machine Learning Workloads](https://arxiv.org/abs/2105.05720) by Abhinav Jangda et al., arXiv 2021
