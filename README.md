@@ -47,6 +47,8 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [An In-depth Comparison of Compilers for DeepNeural Networks on Hardware](https://ieeexplore.ieee.org/document/8782480) by Yu Xing et al., ICESS 2019
 
 ### Compiler
+- [Composable and Modular Code Generation in MLIR: A Structured and Retargetable Approach to Tensor Compiler Construction](https://arxiv.org/pdf/2202.03293.pdf) by Nicolas Vasilache et al., ArXiv 2022
+- [Compiler Support for Sparse Tensor Computations in MLIR](https://arxiv.org/pdf/2202.04305.pdf) by Aart J.C. Bik et al., ArXiv 2022
 - [DeepCuts: A deep learning optimization framework for versatile GPU workloads](https://pldi21.sigplan.org/details/pldi-2021-papers/13/DeepCuts-A-Deep-Learning-Optimization-Framework-for-Versatile-GPU-Workloads) by Wookeun Jung et al., PLDI 2021
 - [PET: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated Corrections](https://www.usenix.org/conference/osdi21/presentation/wang) by Haojie Wang et al., OSDI 2021
 - [MLIR: Scaling Compiler Infrastructure for Domain Specific Computation](https://research.google/pubs/pub49988/) by Chris Lattner et al., CGO 2021
