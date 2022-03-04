@@ -13,7 +13,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
     - [Compiler](#compiler)
     - [Auto-tuning and Auto-scheduling](#auto-tuning-and-auto-scheduling)
     - [Cost Model](#cost-model)
-    - [CPU & GPU Optimizaiton](#cpu-and-gpu-optimizaiton)
+    - [CPU & GPU Optimization](#cpu-and-gpu-optimization)
     - [NPU Optimization](#npu-optimization)
     - [Graph-level Optimization](#graph-level-optimization)
     - [Dynamic Model](#dynamic-model)
@@ -90,7 +90,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [DYNATUNE: Dynamic Tensor Program Optimization in Deep Neural Network Compilation](https://openreview.net/pdf/f2330b850544ed7b0157ff0411638fd7ee8aefc0.pdf) by Minjia Zhang et al., ICLR 2021
 - [MetaTune: Meta-Learning Based Cost Model for Fast and Efficient Auto-tuning Frameworks](https://arxiv.org/abs/2102.04199) by Jaehun Ryu et al., arxiv 2021
 
-### CPU and GPU Optimizaiton
+### CPU and GPU Optimization
 - [Analytical characterization and design space exploration for optimization of CNNs](https://dl.acm.org/doi/abs/10.1145/3445814.3446759) by Rui Li et al., ASPLOS 2021
 - [UNIT: Unifying Tensorized Instruction Compilation](https://ieeexplore.ieee.org/abstract/document/9370330) by Jian Weng et al., CGO 2021
 - [PolyDL: Polyhedral Optimizations for Creation of HighPerformance DL primitives](https://arxiv.org/abs/2006.02230) by Sanket Tavarageri et al., arXiv 2020
