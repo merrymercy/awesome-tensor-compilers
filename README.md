@@ -19,6 +19,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
     - [Dynamic Model](#dynamic-model)
     - [Graph Neural Networks](#graph-neural-networks)
     - [Distributed Computing](#distributed-computing)
+    - [Quantization and Sparsification](#quantization-and-sparsification)
     - [Program Rewriting](#program-rewriting)
   - [Tutorials](#tutorials)
   - [Contribute](#contribute)
