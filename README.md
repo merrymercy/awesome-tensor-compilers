@@ -17,7 +17,9 @@ A list of awesome compiler projects and papers for tensor computation and deep l
     - [NPU Optimization](#npu-optimization)
     - [Graph-level Optimization](#graph-level-optimization)
     - [Dynamic Model](#dynamic-model)
+    - [Graph Neural Networks](#graph-neural-networks)
     - [Distributed Computing](#distributed-computing)
+    - [Program Rewriting](#program-rewriting)
   - [Tutorials](#tutorials)
   - [Contribute](#contribute)
 
