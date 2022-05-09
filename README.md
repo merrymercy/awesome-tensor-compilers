@@ -49,6 +49,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [An In-depth Comparison of Compilers for DeepNeural Networks on Hardware](https://ieeexplore.ieee.org/document/8782480) by Yu Xing et al., ICESS 2019
 
 ### Compiler
+- [Roller: Fast and Efficient Tensor Compilation for Deep Learning](https://www.microsoft.com/en-us/research/publication/roller-fast-and-efficient-tensor-compilation-for-deep-learning/) by Hongyu Zhu et al., OSDI 2022
 - [AStitch: Enabling a New Multi-dimensional Optimization Space for Memory-Intensive ML Training and Inference on Modern SIMT Architectures](https://dl.acm.org/doi/10.1145/3503222.3507723) by Zhen Zheng et al., ASPLOS 2022
 - [Composable and Modular Code Generation in MLIR: A Structured and Retargetable Approach to Tensor Compiler Construction](https://arxiv.org/pdf/2202.03293.pdf) by Nicolas Vasilache et al., ArXiv 2022
 - [Compiler Support for Sparse Tensor Computations in MLIR](https://arxiv.org/pdf/2202.04305.pdf) by Aart J.C. Bik et al., ArXiv 2022
@@ -100,7 +101,6 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Analytical characterization and design space exploration for optimization of CNNs](https://dl.acm.org/doi/abs/10.1145/3445814.3446759) by Rui Li et al., ASPLOS 2021
 - [UNIT: Unifying Tensorized Instruction Compilation](https://ieeexplore.ieee.org/abstract/document/9370330) by Jian Weng et al., CGO 2021
 - [PolyDL: Polyhedral Optimizations for Creation of HighPerformance DL primitives](https://arxiv.org/abs/2006.02230) by Sanket Tavarageri et al., arXiv 2020
-- [Automatic Generation of High-Performance Quantized Machine Learning Kernels](https://www.cs.utexas.edu/~bornholt/papers/quantized-cgo20.pdf) by Meghan Cowan et al., CGO 2020
 - [Fireiron: A Data-Movement-Aware Scheduling Language for GPUs](https://dl.acm.org/doi/abs/10.1145/3410463.3414632) by Bastian Hagedorn et al., PACT 2020
 - [Automatic Kernel Generation for Volta Tensor Cores](https://arxiv.org/abs/2006.12645) by Somashekaracharya G. Bhaskaracharya et al., arXiv 2020
 - [Swizzle Inventor: Data Movement Synthesis for GPU Kernels](https://mangpo.net/papers/swizzle-inventor-asplos19.pdf) by Phitchaya Mangpo Phothilimthana et al., ASPLOS 2019
@@ -120,6 +120,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Nimble: Lightweight and Parallel GPU Task Scheduling for Deep Learning](https://proceedings.neurips.cc/paper/2020/file/5f0ad4db43d8723d18169b2e4817a160-Paper.pdf) by Woosuk Kwon et al., Neurips 2020
 
 ### Dynamic Model
+- [DietCode: Automatic Optimization for Dynamic Tensor Programs](https://proceedings.mlsys.org/paper/2022/file/fa7cdfad1a5aaf8370ebeda47a1ff1c3-Paper.pdf) by Bojian Zheng et al., MLSys 2022
 - [The CoRa Tensor Compiler: Compilation for Ragged Tensors with Minimal Padding](https://arxiv.org/abs/2110.10221) by Pratik Fegade et al., MLSys 2022
 - [Nimble: Efficiently Compiling Dynamic Neural Networks for Model Inference](https://arxiv.org/abs/2006.03031) by Haichen Shen et al., MLSys 2021
 - [DISC: A Dynamic Shape Compiler for Machine Learning Workloads](https://arxiv.org/pdf/2103.05288.pdf) by Kai Zhu et al., EuroMLSys 2021
@@ -139,6 +140,10 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [OneFlow: Redesign the Distributed Deep Learning Framework from Scratch](https://arxiv.org/abs/2110.15032) by Jinhui Yuan et al., arXiv 2021
 - [Breaking the Computation and Communication Abstraction Barrier in Distributed Machine Learning Workloads](https://arxiv.org/abs/2105.05720) by Abhinav Jangda et al., arXiv 2021
 - [Distributed Halide](https://dl.acm.org/doi/abs/10.1145/3016078.2851157) by Tyler Denniston et al., PPoPP 2016
+
+### Quantization and Sparsification
+- [SparTA: Deep-Learning Model Sparsity via Tensor-with-Sparsity-Attribute](https://www.microsoft.com/en-us/research/uploads/prod/2021/08/SparGen.pdf) by Ningxin Zheng et al., OSDI 2022
+- [Automatic Generation of High-Performance Quantized Machine Learning Kernels](https://www.cs.utexas.edu/~bornholt/papers/quantized-cgo20.pdf) by Meghan Cowan et al., CGO 2020
 
 ### Program Rewriting
 - [Verified tensor-program optimization via high-level scheduling rewrites](https://dl.acm.org/doi/pdf/10.1145/3498717) by Amanda Liu et al., POPL 2022
