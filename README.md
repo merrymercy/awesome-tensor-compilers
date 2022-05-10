@@ -17,7 +17,10 @@ A list of awesome compiler projects and papers for tensor computation and deep l
     - [NPU Optimization](#npu-optimization)
     - [Graph-level Optimization](#graph-level-optimization)
     - [Dynamic Model](#dynamic-model)
+    - [Graph Neural Networks](#graph-neural-networks)
     - [Distributed Computing](#distributed-computing)
+    - [Quantization and Sparsification](#quantization-and-sparsification)
+    - [Program Rewriting](#program-rewriting)
   - [Tutorials](#tutorials)
   - [Contribute](#contribute)
 
@@ -47,6 +50,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [An In-depth Comparison of Compilers for DeepNeural Networks on Hardware](https://ieeexplore.ieee.org/document/8782480) by Yu Xing et al., ICESS 2019
 
 ### Compiler
+- [Roller: Fast and Efficient Tensor Compilation for Deep Learning](https://www.microsoft.com/en-us/research/publication/roller-fast-and-efficient-tensor-compilation-for-deep-learning/) by Hongyu Zhu et al., OSDI 2022
 - [AStitch: Enabling a New Multi-dimensional Optimization Space for Memory-Intensive ML Training and Inference on Modern SIMT Architectures](https://dl.acm.org/doi/10.1145/3503222.3507723) by Zhen Zheng et al., ASPLOS 2022
 - [Composable and Modular Code Generation in MLIR: A Structured and Retargetable Approach to Tensor Compiler Construction](https://arxiv.org/pdf/2202.03293.pdf) by Nicolas Vasilache et al., ArXiv 2022
 - [Compiler Support for Sparse Tensor Computations in MLIR](https://arxiv.org/pdf/2202.04305.pdf) by Aart J.C. Bik et al., ArXiv 2022
@@ -73,6 +77,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [A Full-Stack Search Technique for Domain Optimized Deep Learning Accelerators](https://dl.acm.org/doi/10.1145/3503222.3507767) by Dan Zhang et al., ASPLOS 2022
 - [Lorien: Efficient Deep Learning Workloads Delivery](https://dl.acm.org/doi/abs/10.1145/3472883.3486973) by Cody Hao Yu et al., SoCC 2021
 - [Value Learning for Throughput Optimization of Deep Neural Networks](https://proceedings.mlsys.org/paper/2021/hash/73278a4a86960eeb576a8fd4c9ec6997-Abstract.html) by Benoit Steiner et al., MLSys 2021
+- [A Flexible Approach to Autotuning Multi-Pass Machine Learning Compilers](https://mangpo.net/papers/xla-autotuning-pact2021.pdf) by Phitchaya Mangpo Phothilimthana et al., PACT 2021
 - [Ansor: Generating High-Performance Tensor Programs for Deep Learning](https://arxiv.org/abs/2006.06762) by Lianmin Zheng et al., OSDI 2020
 - [Schedule Synthesis for Halide Pipelines on GPUs](https://dl.acm.org/doi/fullHtml/10.1145/3406117) by Sioutas Savvas et al., TACO 2020
 - [FlexTensor: An Automatic Schedule Exploration and Optimization Framework for Tensor Computation on Heterogeneous System](https://dl.acm.org/doi/abs/10.1145/3373376.3378508) by Size Zheng et al., ASPLOS 2020
@@ -86,6 +91,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Automatically Scheduling Halide Image Processing Pipelines](http://graphics.cs.cmu.edu/projects/halidesched/) by Ravi Teja Mullapudi et al., SIGGRAPH 2016
 
 ### Cost Model
+- [An Asymptotic Cost Model for Autoscheduling Sparse Tensor Programs](https://peterahrens.io/assets/documents/ahrens_asymptotic_2021.pdf) by Peter Ahrens et al., PLDI 2022
 - [TenSet: A Large-scale Program Performance Dataset for Learned Tensor Compilers](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/a684eceee76fc522773286a895bc8436-Abstract-round1.html) by Lianmin Zheng., NeurIPS 2021
 - [A Deep Learning Based Cost Model for Automatic Code Optimization](https://proceedings.mlsys.org/paper/2021/hash/3def184ad8f4755ff269862ea77393dd-Abstract.html) by Riyadh Baghdadi et al., MLSys 2021
 - [A Learned Performance Model for the Tensor Processing Unit](https://arxiv.org/abs/2008.01040) by Samuel J. Kaufman et al., MLSys 2021
@@ -96,13 +102,14 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Analytical characterization and design space exploration for optimization of CNNs](https://dl.acm.org/doi/abs/10.1145/3445814.3446759) by Rui Li et al., ASPLOS 2021
 - [UNIT: Unifying Tensorized Instruction Compilation](https://ieeexplore.ieee.org/abstract/document/9370330) by Jian Weng et al., CGO 2021
 - [PolyDL: Polyhedral Optimizations for Creation of HighPerformance DL primitives](https://arxiv.org/abs/2006.02230) by Sanket Tavarageri et al., arXiv 2020
-- [Automatic Generation of High-Performance Quantized Machine Learning Kernels](https://www.cs.utexas.edu/~bornholt/papers/quantized-cgo20.pdf) by Meghan Cowan et al., CGO 2020
 - [Fireiron: A Data-Movement-Aware Scheduling Language for GPUs](https://dl.acm.org/doi/abs/10.1145/3410463.3414632) by Bastian Hagedorn et al., PACT 2020
 - [Automatic Kernel Generation for Volta Tensor Cores](https://arxiv.org/abs/2006.12645) by Somashekaracharya G. Bhaskaracharya et al., arXiv 2020
+- [Swizzle Inventor: Data Movement Synthesis for GPU Kernels](https://mangpo.net/papers/swizzle-inventor-asplos19.pdf) by Phitchaya Mangpo Phothilimthana et al., ASPLOS 2019
 - [Optimizing CNN Model Inference on CPUs](https://www.usenix.org/system/files/atc19-liu-yizhi.pdf) by Yizhi Liu et al., ATC 2019
 - [Analytical cache modeling and tilesize optimization for tensor contractions](https://dl.acm.org/doi/abs/10.1145/3295500.3356218) by Rui Li et al., SC 19
 
 ### NPU Optimization
+- [AMOS: Enabling Automatic Mapping for Tensor Computations On Spatial Accelerators with Hardware Abstraction](https://cs.stanford.edu/~anjiang/papers/ZhengETAL22AMOS.pdf) by Size Zheng et al., ISCA 2022 
 - [AKG: Automatic Kernel Generation for Neural Processing Units using Polyhedral Transformations](https://www.di.ens.fr/~zhaojie/pldi2021-paper) by Jie Zhao et al., PLDI 2021
 
 ### Graph-level Optimization
@@ -114,22 +121,35 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Nimble: Lightweight and Parallel GPU Task Scheduling for Deep Learning](https://proceedings.neurips.cc/paper/2020/file/5f0ad4db43d8723d18169b2e4817a160-Paper.pdf) by Woosuk Kwon et al., Neurips 2020
 
 ### Dynamic Model
+- [DietCode: Automatic Optimization for Dynamic Tensor Programs](https://proceedings.mlsys.org/paper/2022/file/fa7cdfad1a5aaf8370ebeda47a1ff1c3-Paper.pdf) by Bojian Zheng et al., MLSys 2022
 - [The CoRa Tensor Compiler: Compilation for Ragged Tensors with Minimal Padding](https://arxiv.org/abs/2110.10221) by Pratik Fegade et al., MLSys 2022
 - [Nimble: Efficiently Compiling Dynamic Neural Networks for Model Inference](https://arxiv.org/abs/2006.03031) by Haichen Shen et al., MLSys 2021
 - [DISC: A Dynamic Shape Compiler for Machine Learning Workloads](https://arxiv.org/pdf/2103.05288.pdf) by Kai Zhu et al., EuroMLSys 2021
 - [Cortex: A Compiler for Recursive Deep Learning Models](https://arxiv.org/abs/2011.01383) by Pratik Fegade et al., MLSys 2021
 
 ### Graph Neural Networks
-- [Graphiler: Optimizing Graph Neural Networks with Message Passing Data Flow Graph](https://gnnsys.github.io/papers/GNNSys21_paper_10.pdf) by Zhiqiang Xie et al., MLSys 2022
+- [Graphiler: Optimizing Graph Neural Networks with Message Passing Data Flow Graph](https://proceedings.mlsys.org/paper/2022/file/a87ff679a2f3e71d9181a67b7542122c-Paper.pdf) by Zhiqiang Xie et al., MLSys 2022
 - [Seastar: vertex-centric programming for graph neural networks](http://www.cse.cuhk.edu.hk/~jcheng/papers/seastar_eurosys21.pdf) by Yidi Wu et al., Eurosys 2021 
+- [FeatGraph: A Flexible and Efficient Backend for Graph Neural Network Systems](https://arxiv.org/pdf/2008.11359.pdf) by Yuwei Hu et al., SC 2020
 
 ### Distributed Computing
-- [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/abs/2201.12023) by Lianmin Zheng, Zhuohan Li, Hao Zhang et al., OSDI 2022
+- [Pathways: Asynchronous Distributed Dataflow for ML](https://proceedings.mlsys.org/paper/2022/file/98dce83da57b0395e163467c9dae521b-Paper.pdf) by Paul Barham et al., MLSys 2022
 - [Synthesizing Optimal Parallelism Placement and Reduction Strategies on Hierarchical Systems for Deep Learning](https://arxiv.org/abs/2110.10548) by Ningning Xie, Tamara Norman, Diminik Grewe, Dimitrios Vytiniotis et al., MLSys 2022
+- [DISTAL: The Distributed Tensor Algebra Compiler](https://arxiv.org/pdf/2203.08069.pdf) by Rohan Yadav et al., PLDI 2022
+- [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/abs/2201.12023) by Lianmin Zheng, Zhuohan Li, Hao Zhang et al., OSDI 2022
 - [GSPMD: General and Scalable Parallelization for ML Computation Graphs](https://arxiv.org/abs/2105.04663) by Yuanzhong Xu et al., arXiv 2021
 - [OneFlow: Redesign the Distributed Deep Learning Framework from Scratch](https://arxiv.org/abs/2110.15032) by Jinhui Yuan et al., arXiv 2021
 - [Breaking the Computation and Communication Abstraction Barrier in Distributed Machine Learning Workloads](https://arxiv.org/abs/2105.05720) by Abhinav Jangda et al., arXiv 2021
 - [Distributed Halide](https://dl.acm.org/doi/abs/10.1145/3016078.2851157) by Tyler Denniston et al., PPoPP 2016
+
+### Quantization and Sparsification
+- [SparTA: Deep-Learning Model Sparsity via Tensor-with-Sparsity-Attribute](https://www.microsoft.com/en-us/research/uploads/prod/2021/08/SparGen.pdf) by Ningxin Zheng et al., OSDI 2022
+- [Automatic Generation of High-Performance Quantized Machine Learning Kernels](https://www.cs.utexas.edu/~bornholt/papers/quantized-cgo20.pdf) by Meghan Cowan et al., CGO 2020
+
+### Program Rewriting
+- [Verified tensor-program optimization via high-level scheduling rewrites](https://dl.acm.org/doi/pdf/10.1145/3498717) by Amanda Liu et al., POPL 2022
+- [Pure Tensor Program Rewriting via Access Patterns (Representation Pearl)](https://arxiv.org/pdf/2105.09377.pdf) by Gus Smith et al., MAPL 2021
+- [Equality Saturation for Tensor Graph Superoptimization](https://proceedings.mlsys.org/paper/2021/file/65ded5353c5ee48d0b7d48c591b8f430-Paper.pdf) by Yichen Yang et al., MLSys 2021
 
 ## Tutorials
 - [Dive into Deep Learning Compiler](https://tvm.d2l.ai/)
