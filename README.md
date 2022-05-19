@@ -49,6 +49,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [An In-depth Comparison of Compilers for DeepNeural Networks on Hardware](https://ieeexplore.ieee.org/document/8782480) by Yu Xing et al., ICESS 2019
 
 ### Compiler
+- [FreeTensor: A Free-Form DSL with Holistic Optimizations for Irregular Tensor Programs](https://pacman.cs.tsinghua.edu.cn/~zjd/publication/pldi22-freetensor/pldi22-freetensor.pdf) by Shizhi Tang et al., PLDI 2022
 - [AStitch: Enabling a New Multi-dimensional Optimization Space for Memory-Intensive ML Training and Inference on Modern SIMT Architectures](https://dl.acm.org/doi/10.1145/3503222.3507723) by Zhen Zheng et al., ASPLOS 2022
 - [Composable and Modular Code Generation in MLIR: A Structured and Retargetable Approach to Tensor Compiler Construction](https://arxiv.org/pdf/2202.03293.pdf) by Nicolas Vasilache et al., ArXiv 2022
 - [Compiler Support for Sparse Tensor Computations in MLIR](https://arxiv.org/pdf/2202.04305.pdf) by Aart J.C. Bik et al., ArXiv 2022
