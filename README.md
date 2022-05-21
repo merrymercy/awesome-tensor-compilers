@@ -21,28 +21,27 @@ A list of awesome compiler projects and papers for tensor computation and deep l
     - [Distributed Computing](#distributed-computing)
     - [Quantization and Sparsification](#quantization-and-sparsification)
     - [Program Rewriting](#program-rewriting)
+    - [Verification](#verification)
   - [Tutorials](#tutorials)
   - [Contribute](#contribute)
 
 ## Open Source Projects
-- [Nebullvm: Easy-to-use library to boost AI inference leveraging state-of-the-art optimization techniques](https://github.com/nebuly-ai/nebullvm)
-- [TVM:  An End to End Deep Learning Compiler Stack ](https://tvm.apache.org/)
-- [Halide: A Language for Fast, Portable Computation on Images and Tensors](https://halide-lang.org/)
-- [TensorComprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions](https://facebookresearch.github.io/TensorComprehensions/)
-- [Tiramisu: A Polyhedral Compiler for Expressing Fast and Portable Code](http://tiramisu-compiler.org/)
-- [XLA: Optimizing Compiler for Machine Learning](https://www.tensorflow.org/xla)
+- [TVM: An End to End Machine Learning Compiler Framework](https://tvm.apache.org/)
 - [MLIR: Multi-Level Intermediate Representation](https://mlir.llvm.org/)
-- [Hummingbird: Compiling Trained ML Models into Tensor Computation](https://github.com/microsoft/hummingbird)
-- [nnfusion: A Flexible and Efficient Deep Neural Network Compiler](https://github.com/microsoft/nnfusion)
-- [nGraph: An Open Source C++ library, compiler and runtime for Deep Learning](https://www.ngraph.ai/)
-- [PlaidML: A Platform for Making Deep Learning Work Everywhere](https://www.intel.com/content/www/us/en/artificial-intelligence/plaidml.html)
+- [XLA: Optimizing Compiler for Machine Learning](https://www.tensorflow.org/xla)
+- [Halide: A Language for Fast, Portable Computation on Images and Tensors](https://halide-lang.org/)
 - [Glow: Compiler for Neural Network Hardware Accelerators](https://github.com/pytorch/glow)
+- [nnfusion: A Flexible and Efficient Deep Neural Network Compiler](https://github.com/microsoft/nnfusion)
+- [Hummingbird: Compiling Trained ML Models into Tensor Computation](https://github.com/microsoft/hummingbird)
+- [Tiramisu: A Polyhedral Compiler for Expressing Fast and Portable Code](http://tiramisu-compiler.org/)
+- [TensorComprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions](https://facebookresearch.github.io/TensorComprehensions/)
+- [PlaidML: A Platform for Making Deep Learning Work Everywhere](https://github.com/plaidml/plaidml)
+- [Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations](https://github.com/openai/triton)
+- [BladeDISC: An End-to-End DynamIc Shape Compiler for Machine Learning Workloads](https://github.com/alibaba/BladeDISC)
 - [TACO: The Tensor Algebra Compiler](http://tensor-compiler.org/)
-- [TASO: The Tensor Algebra SuperOptimizer for Deep Learning](https://github.com/jiazhihao/TASO)
-- [Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations](https://github.com/ptillet/triton)
+- [Nebullvm: Easy-to-use Library to Boost AI Inference](https://github.com/nebuly-ai/nebullvm)
+- [NN-512: A Compiler That Generates C99 Code for Neural Net Inference](https://nn-512.com/)
 - [DLVM: Modern Compiler Infrastructure for Deep Learning Systems](https://dlvm-team.github.io/)
-- [NN-512: A compiler that generates C99 code for neural net inference](https://nn-512.com/)
-- [BladeDISC: An end-to-end DynamIc Shape Compiler project for machine learning workloads.](https://github.com/alibaba/BladeDISC)
 
 ## Papers
 
@@ -138,7 +137,6 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [FeatGraph: A Flexible and Efficient Backend for Graph Neural Network Systems](https://arxiv.org/pdf/2008.11359.pdf) by Yuwei Hu et al., SC 2020
 
 ### Distributed Computing
-- [Pathways: Asynchronous Distributed Dataflow for ML](https://proceedings.mlsys.org/paper/2022/file/98dce83da57b0395e163467c9dae521b-Paper.pdf) by Paul Barham et al., MLSys 2022
 - [Synthesizing Optimal Parallelism Placement and Reduction Strategies on Hierarchical Systems for Deep Learning](https://arxiv.org/abs/2110.10548) by Ningning Xie, Tamara Norman, Diminik Grewe, Dimitrios Vytiniotis et al., MLSys 2022
 - [DISTAL: The Distributed Tensor Algebra Compiler](https://arxiv.org/pdf/2203.08069.pdf) by Rohan Yadav et al., PLDI 2022
 - [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://arxiv.org/abs/2201.12023) by Lianmin Zheng, Zhuohan Li, Hao Zhang et al., OSDI 2022
@@ -156,10 +154,12 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Pure Tensor Program Rewriting via Access Patterns (Representation Pearl)](https://arxiv.org/pdf/2105.09377.pdf) by Gus Smith et al., MAPL 2021
 - [Equality Saturation for Tensor Graph Superoptimization](https://proceedings.mlsys.org/paper/2021/file/65ded5353c5ee48d0b7d48c591b8f430-Paper.pdf) by Yichen Yang et al., MLSys 2021
 
+### Verification
+- [End-to-End Translation Validation for the Halide Language](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/2d03e3ae1106d3a2c950fcdc5eeb2c383eb24372.pdf) by Basile Clément et al., OOPSLA 2022
+- [Verifying and Improving Halide’s Term Rewriting System with Program Synthesis](https://dl.acm.org/doi/pdf/10.1145/3428234) by Julie L. Newcomb et al., OOPSLA 2020
+
 ## Tutorials
 - [Dive into Deep Learning Compiler](https://tvm.d2l.ai/)
 
-
 ## Contribute
 We encourage all contributions to this repository. Open an [issue](https://github.com/merrymercy/awesome-tensor-compilers/issues) or send a [pull request](https://github.com/merrymercy/awesome-tensor-compilers/pulls).
-
