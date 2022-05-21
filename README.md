@@ -25,6 +25,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
   - [Contribute](#contribute)
 
 ## Open Source Projects
+- [Nebullvm: Easy-to-use library to boost AI inference leveraging state-of-the-art optimization techniques](https://github.com/nebuly-ai/nebullvm)
 - [TVM:  An End to End Deep Learning Compiler Stack ](https://tvm.apache.org/)
 - [Halide: A Language for Fast, Portable Computation on Images and Tensors](https://halide-lang.org/)
 - [TensorComprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions](https://facebookresearch.github.io/TensorComprehensions/)
