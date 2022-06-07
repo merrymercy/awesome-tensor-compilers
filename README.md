@@ -37,6 +37,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations](https://github.com/openai/triton)
 - [BladeDISC: An End-to-End DynamIc Shape Compiler for Machine Learning Workloads](https://github.com/alibaba/BladeDISC)
 - [TACO: The Tensor Algebra Compiler](http://tensor-compiler.org/)
+- [Nebulgym: Easy-to-use Library to Accelerate AI Training](https://github.com/nebuly-ai/nebulgym)
 - [Nebullvm: Easy-to-use Library to Boost AI Inference](https://github.com/nebuly-ai/nebullvm)
 - [NN-512: A Compiler That Generates C99 Code for Neural Net Inference](https://nn-512.com/)
 - [DLVM: Modern Compiler Infrastructure for Deep Learning Systems](https://dlvm-team.github.io/)
