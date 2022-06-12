@@ -19,7 +19,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
   - [Distributed Computing](#distributed-computing)
   - [Quantization and Sparsification](#quantization-and-sparsification)
   - [Program Rewriting](#program-rewriting)
-  - [Verification](#verification)
+  - [Verification and Testing](#verification-and-testing)
 - [Tutorials](#tutorials)
 - [Contribute](#contribute)
 
@@ -153,7 +153,8 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Pure Tensor Program Rewriting via Access Patterns (Representation Pearl)](https://arxiv.org/pdf/2105.09377.pdf) by Gus Smith et al., MAPL 2021
 - [Equality Saturation for Tensor Graph Superoptimization](https://proceedings.mlsys.org/paper/2021/file/65ded5353c5ee48d0b7d48c591b8f430-Paper.pdf) by Yichen Yang et al., MLSys 2021
 
-### Verification
+### Verification and Testing
+- [Coverage-guided tensor compiler fuzzing with joint IR-pass mutation](https://dl.acm.org/doi/pdf/10.1145/3527317) by Jiawei Liu et al., OOPSLA 2022
 - [End-to-End Translation Validation for the Halide Language](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/2d03e3ae1106d3a2c950fcdc5eeb2c383eb24372.pdf) by Basile Clément et al., OOPSLA 2022
 - [Verifying and Improving Halide’s Term Rewriting System with Program Synthesis](https://dl.acm.org/doi/pdf/10.1145/3428234) by Julie L. Newcomb et al., OOPSLA 2020
 
