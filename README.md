@@ -158,6 +158,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Coverage-guided tensor compiler fuzzing with joint IR-pass mutation](https://dl.acm.org/doi/pdf/10.1145/3527317) by Jiawei Liu et al., OOPSLA 2022
 - [End-to-End Translation Validation for the Halide Language](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/2d03e3ae1106d3a2c950fcdc5eeb2c383eb24372.pdf) by Basile Clément et al., OOPSLA 2022
 - [Verifying and Improving Halide’s Term Rewriting System with Program Synthesis](https://dl.acm.org/doi/pdf/10.1145/3428234) by Julie L. Newcomb et al., OOPSLA 2020
+- [A comprehensive study of deep learning compiler bugs](https://dl.acm.org/doi/abs/10.1145/3468264.3468591) by Qingchao Shen et al., ESEC/FSE 2021
 
 ## Tutorials
 - [Dive into Deep Learning Compiler](https://tvm.d2l.ai/)
