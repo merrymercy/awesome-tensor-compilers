@@ -72,6 +72,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 
 
 ### Auto-tuning and Auto-scheduling
+- [One-shot tuner for deep learning compilers](https://dl.acm.org/doi/abs/10.1145/3497776.3517774) by Jaehun Ryu et al., CC 2022 
 - [Autoscheduling for sparse tensor algebra with an asymptotic cost model](https://dl.acm.org/doi/abs/10.1145/3519939.3523442) by Peter Ahrens et al., PLDI 2022
 - [Bolt: Bridging the Gap between Auto-tuners and Hardware-native Performance](https://proceedings.mlsys.org/paper/2022/hash/38b3eff8baf56627478ec76a704e9b52-Abstract.html) by Jiarong Xing et al., MLSys 2022
 - [A Full-Stack Search Technique for Domain Optimized Deep Learning Accelerators](https://dl.acm.org/doi/10.1145/3503222.3507767) by Dan Zhang et al., ASPLOS 2022
