@@ -31,16 +31,15 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Glow: Compiler for Neural Network Hardware Accelerators](https://github.com/pytorch/glow)
 - [nnfusion: A Flexible and Efficient Deep Neural Network Compiler](https://github.com/microsoft/nnfusion)
 - [Hummingbird: Compiling Trained ML Models into Tensor Computation](https://github.com/microsoft/hummingbird)
+- [Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations](https://github.com/openai/triton)
 - [Tiramisu: A Polyhedral Compiler for Expressing Fast and Portable Code](http://tiramisu-compiler.org/)
 - [TensorComprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions](https://facebookresearch.github.io/TensorComprehensions/)
 - [PlaidML: A Platform for Making Deep Learning Work Everywhere](https://github.com/plaidml/plaidml)
-- [Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations](https://github.com/openai/triton)
 - [BladeDISC: An End-to-End DynamIc Shape Compiler for Machine Learning Workloads](https://github.com/alibaba/BladeDISC)
 - [TACO: The Tensor Algebra Compiler](http://tensor-compiler.org/)
 - [Nebulgym: Easy-to-use Library to Accelerate AI Training](https://github.com/nebuly-ai/nebulgym)
 - [Nebullvm: Easy-to-use Library to Boost AI Inference](https://github.com/nebuly-ai/nebullvm)
 - [NN-512: A Compiler That Generates C99 Code for Neural Net Inference](https://nn-512.com/)
-- [DLVM: Modern Compiler Infrastructure for Deep Learning Systems](https://dlvm-team.github.io/)
 
 ## Papers
 
@@ -148,8 +147,9 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Distributed Halide](https://dl.acm.org/doi/abs/10.1145/3016078.2851157) by Tyler Denniston et al., PPoPP 2016
 
 ### Quantization and Sparsification
-- [Compiler Support for Sparse Tensor Computations in MLIR](https://arxiv.org/pdf/2202.04305.pdf) by Aart J.C. Bik et al., ArXiv 2022
-- [SparTA: Deep-Learning Model Sparsity via Tensor-with-Sparsity-Attribute](https://www.microsoft.com/en-us/research/uploads/prod/2021/08/SparGen.pdf) by Ningxin Zheng et al., OSDI 2022
+- [SparseTIR: Composable Abstractions for Sparse Compilation in Deep Learning](https://arxiv.org/abs/2207.04606) by Zihao ye et al., arXiv 2022
+- [SparTA: Deep-Learning Model Sparsity via Tensor-with-Sparsity-Attribute](https://www.usenix.org/conference/osdi22/presentation/zheng-ningxin) by Ningxin Zheng et al., OSDI 2022
+- [Compiler Support for Sparse Tensor Computations in MLIR](https://arxiv.org/pdf/2202.04305.pdf) by Aart J.C. Bik et al., arXiv 2022
 - [Automatic Generation of High-Performance Quantized Machine Learning Kernels](https://www.cs.utexas.edu/~bornholt/papers/quantized-cgo20.pdf) by Meghan Cowan et al., CGO 2020
 
 ### Program Rewriting
@@ -160,8 +160,8 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 ### Verification and Testing
 - [Coverage-guided tensor compiler fuzzing with joint IR-pass mutation](https://dl.acm.org/doi/pdf/10.1145/3527317) by Jiawei Liu et al., OOPSLA 2022
 - [End-to-End Translation Validation for the Halide Language](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/2d03e3ae1106d3a2c950fcdc5eeb2c383eb24372.pdf) by Basile Clément et al., OOPSLA 2022
-- [Verifying and Improving Halide’s Term Rewriting System with Program Synthesis](https://dl.acm.org/doi/pdf/10.1145/3428234) by Julie L. Newcomb et al., OOPSLA 2020
 - [A comprehensive study of deep learning compiler bugs](https://dl.acm.org/doi/abs/10.1145/3468264.3468591) by Qingchao Shen et al., ESEC/FSE 2021
+- [Verifying and Improving Halide’s Term Rewriting System with Program Synthesis](https://dl.acm.org/doi/pdf/10.1145/3428234) by Julie L. Newcomb et al., OOPSLA 2020
 
 ## Tutorials
 - [Machine Learning Compilation](https://mlc.ai/summer22/)
@@ -169,3 +169,6 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 
 ## Contribute
 We encourage all contributions to this repository. Open an [issue](https://github.com/merrymercy/awesome-tensor-compilers/issues) or send a [pull request](https://github.com/merrymercy/awesome-tensor-compilers/pulls).
+
+### Notes on Link Format
+For papers, we prefer using a link which points to a more informative page instead of a single pdf. For example, for arxiv papers, we prefer https://arxiv.org/abs/1802.04799 over https://arxiv.org/pdf/1802.04799.pdf. For OSDI papers, we prefer https://www.usenix.org/conference/osdi18/presentation/chen over https://www.usenix.org/system/files/osdi18-chen.pdf
