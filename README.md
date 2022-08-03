@@ -40,6 +40,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Nebulgym: Easy-to-use Library to Accelerate AI Training](https://github.com/nebuly-ai/nebulgym)
 - [Nebullvm: Easy-to-use Library to Boost AI Inference](https://github.com/nebuly-ai/nebullvm)
 - [NN-512: A Compiler That Generates C99 Code for Neural Net Inference](https://nn-512.com/)
+- [DaCeML: A Data-Centric Compiler for Machine Learning](https://github.com/spcl/daceml)
 
 ## Papers
 
@@ -49,6 +50,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 
 ### Compiler and IR Design
 - [TensorIR: An Abstraction for Automatic Tensorized Program Optimization](https://arxiv.org/abs/2207.04296) by Siyuan Feng, Bohan Hou et al., arXiv 2022
+- [DaCeML: A Data-Centric Compiler for Machine Learning](https://arxiv.org/abs/2110.10802) by Oliver Rausch et al., ICS 22
 - [FreeTensor: A Free-Form DSL with Holistic Optimizations for Irregular Tensor Programs](https://dl.acm.org/doi/10.1145/3519939.3523448) by Shizhi Tang et al., PLDI 2022
 - [Roller: Fast and Efficient Tensor Compilation for Deep Learning](https://www.usenix.org/conference/osdi22/presentation/zhu) by Hongyu Zhu et al., OSDI 2022
 - [AStitch: Enabling a New Multi-dimensional Optimization Space for Memory-Intensive ML Training and Inference on Modern SIMT Architectures](https://dl.acm.org/doi/10.1145/3503222.3507723) by Zhen Zheng et al., ASPLOS 2022
@@ -57,6 +59,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [MLIR: Scaling Compiler Infrastructure for Domain Specific Computation](https://ieeexplore.ieee.org/document/9370308) by Chris Lattner et al., CGO 2021
 - [A Tensor Compiler for Unified Machine Learning Prediction Serving](https://www.usenix.org/conference/osdi20/presentation/nakandala) by Supun Nakandala et al., OSDI 2020
 - [Rammer: Enabling Holistic Deep Learning Compiler Optimizations with rTasks](https://www.usenix.org/conference/osdi20/presentation/ma) by Lingxiao Ma et al., OSDI 2020
+- [Stateful Dataflow Multigraphs: A Data-Centric Model for Performance Portability on Heterogeneous Architectures](https://arxiv.org/abs/1902.10345) by Tal Ben-Nun et al., SC 2019
 - [TASO: The Tensor Algebra SuperOptimizer for Deep Learning](https://dl.acm.org/doi/abs/10.1145/3341301.3359630) by Zhihao Jia et al., SOSP 2019
 - [Tiramisu: A polyhedral compiler for expressing fast and portable code](https://arxiv.org/abs/1804.10694) by Riyadh Baghdadi et al., CGO 2019
 - [Triton: an intermediate language and compiler for tiled neural network computations](https://dl.acm.org/doi/abs/10.1145/3315508.3329973) by Philippe Tillet et al., MAPL 2019
