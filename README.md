@@ -50,6 +50,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 
 ### Compiler and IR Design
 - [TensorIR: An Abstraction for Automatic Tensorized Program Optimization](https://arxiv.org/abs/2207.04296) by Siyuan Feng, Bohan Hou et al., arXiv 2022
+- [Exocompilation for Productive Programming of Hardware Accelerators](https://dl.acm.org/doi/pdf/10.1145/3519939.3523446) by Yuka Ikarashi, Gilbert Louis Bernstein et al., PLDI 2022
 - [DaCeML: A Data-Centric Compiler for Machine Learning](https://arxiv.org/abs/2110.10802) by Oliver Rausch et al., ICS 22
 - [FreeTensor: A Free-Form DSL with Holistic Optimizations for Irregular Tensor Programs](https://dl.acm.org/doi/10.1145/3519939.3523448) by Shizhi Tang et al., PLDI 2022
 - [Roller: Fast and Efficient Tensor Compilation for Deep Learning](https://www.usenix.org/conference/osdi22/presentation/zhu) by Hongyu Zhu et al., OSDI 2022
@@ -152,7 +153,8 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Distributed Halide](https://dl.acm.org/doi/abs/10.1145/3016078.2851157) by Tyler Denniston et al., PPoPP 2016
 
 ### Quantization and Sparsification
-- [SparseTIR: Composable Abstractions for Sparse Compilation in Deep Learning](https://arxiv.org/abs/2207.04606) by Zihao ye et al., arXiv 2022
+- [SparseTIR: Composable Abstractions for Sparse Compilation in Deep Learning](https://arxiv.org/abs/2207.04606) by Zihao Ye et al., arXiv 2022
+- [SparseLNR: Accelerating Sparse Tensor Computations Using Loop Nest Restructuring](https://dl.acm.org/doi/pdf/10.1145/3524059.3532386) by Adhitha Dias et al., ICS 2022
 - [SparTA: Deep-Learning Model Sparsity via Tensor-with-Sparsity-Attribute](https://www.usenix.org/conference/osdi22/presentation/zheng-ningxin) by Ningxin Zheng et al., OSDI 2022
 - [Compiler Support for Sparse Tensor Computations in MLIR](https://arxiv.org/abs/2202.04305) by Aart J.C. Bik et al., arXiv 2022
 - [Automatic Generation of High-Performance Quantized Machine Learning Kernels](https://dl.acm.org/doi/10.1145/3368826.3377912) by Meghan Cowan et al., CGO 2020
