@@ -98,7 +98,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 ### Cost Model
 - [TLP: A Deep Learning-based Cost Model for Tensor Program Tuning](https://arxiv.org/abs/2211.03578) by Yi Zhai et al., ASPLOS 2023
 - [An Asymptotic Cost Model for Autoscheduling Sparse Tensor Programs](https://arxiv.org/abs/2111.14947) by Peter Ahrens et al., PLDI 2022
-- [TenSet: A Large-scale Program Performance Dataset for Learned Tensor Compilers](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/a684eceee76fc522773286a895bc8436-Abstract-round1.html) by Lianmin Zheng., NeurIPS 2021
+- [TenSet: A Large-scale Program Performance Dataset for Learned Tensor Compilers](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/a684eceee76fc522773286a895bc8436-Abstract-round1.html) by Lianmin Zheng et al., NeurIPS 2021
 - [A Deep Learning Based Cost Model for Automatic Code Optimization](https://proceedings.mlsys.org/paper/2021/hash/3def184ad8f4755ff269862ea77393dd-Abstract.html) by Riyadh Baghdadi et al., MLSys 2021
 - [A Learned Performance Model for the Tensor Processing Unit](https://arxiv.org/abs/2008.01040) by Samuel J. Kaufman et al., MLSys 2021
 - [DYNATUNE: Dynamic Tensor Program Optimization in Deep Neural Network Compilation](https://openreview.net/forum?id=GTGb3M_KcUl) by Minjia Zhang et al., ICLR 2021
