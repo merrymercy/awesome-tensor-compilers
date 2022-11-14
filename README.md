@@ -24,7 +24,6 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Contribute](#contribute)
 
 ## Open Source Projects
-- [AITemplate: A Python framework which renders neural network into high performance CUDA/HIP C++ code](https://github.com/facebookincubator/AITemplate)
 - [TVM: An End to End Machine Learning Compiler Framework](https://tvm.apache.org/)
 - [MLIR: Multi-Level Intermediate Representation](https://mlir.llvm.org/)
 - [XLA: Optimizing Compiler for Machine Learning](https://www.tensorflow.org/xla)
@@ -33,6 +32,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [nnfusion: A Flexible and Efficient Deep Neural Network Compiler](https://github.com/microsoft/nnfusion)
 - [Hummingbird: Compiling Trained ML Models into Tensor Computation](https://github.com/microsoft/hummingbird)
 - [Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations](https://github.com/openai/triton)
+- [AITemplate: A Python framework which renders neural network into high performance CUDA/HIP C++ code](https://github.com/facebookincubator/AITemplate)
 - [Tiramisu: A Polyhedral Compiler for Expressing Fast and Portable Code](http://tiramisu-compiler.org/)
 - [TensorComprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions](https://facebookresearch.github.io/TensorComprehensions/)
 - [PlaidML: A Platform for Making Deep Learning Work Everywhere](https://github.com/plaidml/plaidml)
