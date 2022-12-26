@@ -39,7 +39,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [BladeDISC: An End-to-End DynamIc Shape Compiler for Machine Learning Workloads](https://github.com/alibaba/BladeDISC)
 - [TACO: The Tensor Algebra Compiler](http://tensor-compiler.org/)
 - [Nebulgym: Easy-to-use Library to Accelerate AI Training](https://github.com/nebuly-ai/nebulgym)
-- [Nebullvm: Easy-to-use Library to Boost AI Inference](https://github.com/nebuly-ai/nebullvm)
+- [Speedster: Automatically apply SOTA optimization techniques to achieve the maximum inference speed-up on your hardware](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/speedster)
 - [NN-512: A Compiler That Generates C99 Code for Neural Net Inference](https://nn-512.com/)
 - [DaCeML: A Data-Centric Compiler for Machine Learning](https://github.com/spcl/daceml)
 
