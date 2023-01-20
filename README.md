@@ -168,10 +168,35 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Automatic Generation of High-Performance Quantized Machine Learning Kernels](https://dl.acm.org/doi/10.1145/3368826.3377912) by Meghan Cowan et al., CGO 2020
 
 ### Sparse
-- [SparseTIR: Composable Abstractions for Sparse Compilation in Deep Learning](https://arxiv.org/abs/2207.04606) by Zihao Ye et al., arXiv 2022
+- [SparseTIR: Composable Abstractions for Sparse Compilation in Deep Learning](https://arxiv.org/abs/2207.04606) by Zihao Ye et al., ASPLOS 2023
+- [Looplets: A Language For Structured Coiteration](https://arxiv.org/abs/2209.05250) by Willow Ahrens et al., CGO 2023
+- [Code Synthesis for Sparse Tensor Format Conversion and Optimization](https://www.researchgate.net/publication/367180198_Code_Synthesis_for_Sparse_Tensor_Format_Conversion_and_Optimization) by Tobi Popoola et al., CGO 2023
+- [Stardust: Compiling Sparse Tensor Algebra to a Reconfigurable Dataflow Architecture](https://arxiv.org/abs/2211.03251) by Olivia Hsu et al., arXiv 2022
+- [The Sparse Abstract Machine](https://arxiv.org/abs/2208.14610) by Olivia Hsu et al., arXiv 2022
+- [Unified Compilation for Lossless Compression and Sparse Computing](https://dl.acm.org/doi/10.1109/CGO53902.2022.9741282) by Daniel Donenfeld et al., CGO 2022
 - [SparseLNR: Accelerating Sparse Tensor Computations Using Loop Nest Restructuring](https://dl.acm.org/doi/pdf/10.1145/3524059.3532386) by Adhitha Dias et al., ICS 2022
 - [SparTA: Deep-Learning Model Sparsity via Tensor-with-Sparsity-Attribute](https://www.usenix.org/conference/osdi22/presentation/zheng-ningxin) by Ningxin Zheng et al., OSDI 2022
-- [Compiler Support for Sparse Tensor Computations in MLIR](https://arxiv.org/abs/2202.04305) by Aart J.C. Bik et al., arXiv 2022
+- [Compiler Support for Sparse Tensor Computations in MLIR](https://arxiv.org/abs/2202.04305) by Aart J.C. Bik et al., TACO 2022
+- [Compilation of Sparse Array Programming Models](https://dl.acm.org/doi/pdf/10.1145/3485505) by Rawn Henry and Olivia Hsu et al., OOPSLA 2021
+- [A High Performance Sparse Tensor Algebra Compiler in MLIR](https://ieeexplore.ieee.org/document/9651314) by Ruiqin Tian et al., LLVM-HPC 2021
+- [Dynamic Sparse Tensor Algebra Compilation](https://arxiv.org/abs/2112.01394) by Stephen Chou et al., arXiv 2021
+- [Automatic Generation of Efficient Sparse Tensor Format Conversion Routines](https://dl.acm.org/doi/pdf/10.1145/3385412.3385963) by Stephen Chou et al., PLDI 2020
+- [TIRAMISU: A Polyhedral Compiler for Dense and Sparse Deep Learning](https://arxiv.org/abs/2005.04091) by Riyadh Baghdadi et al., arXiv 2020
+- [Tensor Algebra Compilation with Workspaces](https://dl.acm.org/doi/abs/10.5555/3314872.3314894) by Fredrik Kjolstad et al., CGO 2019
+- [Sparse Computation Data Dependence Simplification for Efficient Compiler-Generated Inspectors](https://dl.acm.org/doi/10.1145/3314221.3314646) by Mahdi Soltan Mohammadi et al., PLDI 2019
+- [Taichi: A Language for High-Performance Computation on Spatially Sparse Data Structures](https://dl.acm.org/doi/pdf/10.1145/3355089.3356506) by Yuanming Hu et al., ACM ToG 2019
+- [The Sparse Polyhedral Framework: Composing Compiler-Generated Inspector-Executor Code](https://ieeexplore.ieee.org/document/8436444) by Michelle Mills Strout et al., Proceedings of the IEEE 2018
+- [Format Abstraction for Sparse Tensor Algebra Compilers](https://dl.acm.org/doi/pdf/10.1145/3276493) by Stephen Chou et al., OOPSLA 2018
+- [ParSy: Inspection and Transformation of Sparse Matrix Computations for Parallelism](https://ieeexplore.ieee.org/document/8665791) by Kazem Cheshmi et al., SC 2018
+- [Sympiler: Transforming Sparse Matrix Codes by Decoupling Symbolic Analysis](https://dl.acm.org/doi/10.1145/3126908.3126936) by Kazem Cheshmi et al., SC 2017
+- [The Tensor Algebra Compiler](https://dl.acm.org/doi/pdf/10.1145/3133901) by Fredrik Kjolstad et al., OOPSLA 2017
+- [Next-generation Generic Programming and its Application to Sparse Matrix Computations](https://dl.acm.org/doi/pdf/10.1145/335231.335240) by Nikolay Mateev et al., ICS 2000
+- [A Framework for Sparse Matrix Code Synthesis from High-level Specifications](https://ieeexplore.ieee.org/document/1592771) by Nawaaz Ahmed et al., SC 2000
+- [Automatic Nonzero Structure Analysis](https://epubs.siam.org/doi/epdf/10.1137/S009753979529595X) by Aart Bik et al., SIAM Journal on Computing 1999
+- [SIPR: A New Framework for Generating Efficient Code for Sparse Matrix Computations](https://link.springer.com/chapter/10.1007/3-540-48319-5_14) by William Pugh et al., LCPC 1998
+- [Automatic Data Structure Selection and Transformation for Sparse Matrix Computations](https://ieeexplore.ieee.org/document/485501) by Aart Bik et al., Aart Bik et al., TPDS 1996
+- [Compilation Techniques for Sparse Matrix Computations](https://dl.acm.org/doi/pdf/10.1145/165939.166023) by Aart Bik et al., ICS 1993
+
 
 ### Program Rewriting
 - [Verified tensor-program optimization via high-level scheduling rewrites](https://dl.acm.org/doi/10.1145/3498717) by Amanda Liu et al., POPL 2022
