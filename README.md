@@ -17,7 +17,8 @@ A list of awesome compiler projects and papers for tensor computation and deep l
   - [Dynamic Model](#dynamic-model)
   - [Graph Neural Networks](#graph-neural-networks)
   - [Distributed Computing](#distributed-computing)
-  - [Quantization and Sparsification](#quantization-and-sparsification)
+  - [Quantization](#quantization)
+  - [Sparse](#sparse)
   - [Program Rewriting](#program-rewriting)
   - [Verification and Testing](#verification-and-testing)
 - [Tutorials](#tutorials)
@@ -136,6 +137,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Nimble: Lightweight and Parallel GPU Task Scheduling for Deep Learning](https://proceedings.neurips.cc/paper/2020/hash/5f0ad4db43d8723d18169b2e4817a160-Abstract.html) by Woosuk Kwon et al., Neurips 2020
 
 ### Dynamic Model
+- [Axon: A Language for Dynamic Shapes in Deep Learning Graphs](https://arxiv.org/abs/2210.02374) by Alexander Collins et al., arXiv 2022
 - [DietCode: Automatic Optimization for Dynamic Tensor Programs](https://proceedings.mlsys.org/paper/2022/hash/fa7cdfad1a5aaf8370ebeda47a1ff1c3-Abstract.html) by Bojian Zheng et al., MLSys 2022
 - [The CoRa Tensor Compiler: Compilation for Ragged Tensors with Minimal Padding](https://arxiv.org/abs/2110.10221) by Pratik Fegade et al., MLSys 2022
 - [Nimble: Efficiently Compiling Dynamic Neural Networks for Model Inference](https://arxiv.org/abs/2006.03031) by Haichen Shen et al., MLSys 2021
@@ -160,12 +162,16 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Supporting Very Large Models using Automatic Dataflow Graph Partitioning](https://dl.acm.org/doi/10.1145/3302424.3303953) by Minjie Wang et al., EuroSys 2019
 - [Distributed Halide](https://dl.acm.org/doi/abs/10.1145/3016078.2851157) by Tyler Denniston et al., PPoPP 2016
 
-### Quantization and Sparsification
+### Quantization
+- [Automated Backend-Aware Post-Training Quantization](https://arxiv.org/abs/2103.14949) by Ziheng Jiang et al., arXiv 2021
+- [Efficient Execution of Quantized Deep Learning Models: A Compiler Approach](https://arxiv.org/abs/2006.10226) by Animesh Jain et al., arXiv 2020
+- [Automatic Generation of High-Performance Quantized Machine Learning Kernels](https://dl.acm.org/doi/10.1145/3368826.3377912) by Meghan Cowan et al., CGO 2020
+
+### Sparse
 - [SparseTIR: Composable Abstractions for Sparse Compilation in Deep Learning](https://arxiv.org/abs/2207.04606) by Zihao Ye et al., arXiv 2022
 - [SparseLNR: Accelerating Sparse Tensor Computations Using Loop Nest Restructuring](https://dl.acm.org/doi/pdf/10.1145/3524059.3532386) by Adhitha Dias et al., ICS 2022
 - [SparTA: Deep-Learning Model Sparsity via Tensor-with-Sparsity-Attribute](https://www.usenix.org/conference/osdi22/presentation/zheng-ningxin) by Ningxin Zheng et al., OSDI 2022
 - [Compiler Support for Sparse Tensor Computations in MLIR](https://arxiv.org/abs/2202.04305) by Aart J.C. Bik et al., arXiv 2022
-- [Automatic Generation of High-Performance Quantized Machine Learning Kernels](https://dl.acm.org/doi/10.1145/3368826.3377912) by Meghan Cowan et al., CGO 2020
 
 ### Program Rewriting
 - [Verified tensor-program optimization via high-level scheduling rewrites](https://dl.acm.org/doi/10.1145/3498717) by Amanda Liu et al., POPL 2022
