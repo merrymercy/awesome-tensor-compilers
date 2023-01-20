@@ -84,6 +84,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Autoscheduling for sparse tensor algebra with an asymptotic cost model](https://dl.acm.org/doi/abs/10.1145/3519939.3523442) by Peter Ahrens et al., PLDI 2022
 - [Bolt: Bridging the Gap between Auto-tuners and Hardware-native Performance](https://proceedings.mlsys.org/paper/2022/hash/38b3eff8baf56627478ec76a704e9b52-Abstract.html) by Jiarong Xing et al., MLSys 2022
 - [A Full-Stack Search Technique for Domain Optimized Deep Learning Accelerators](https://dl.acm.org/doi/10.1145/3503222.3507767) by Dan Zhang et al., ASPLOS 2022
+- [Efficient Automatic Scheduling of Imaging and Vision Pipelines for the GPU](https://dl.acm.org/doi/pdf/10.1145/3485486) by Luke Anderson et al., OOPSLA 2021
 - [Lorien: Efficient Deep Learning Workloads Delivery](https://dl.acm.org/doi/abs/10.1145/3472883.3486973) by Cody Hao Yu et al., SoCC 2021
 - [Value Learning for Throughput Optimization of Deep Neural Networks](https://proceedings.mlsys.org/paper/2021/hash/73278a4a86960eeb576a8fd4c9ec6997-Abstract.html) by Benoit Steiner et al., MLSys 2021
 - [A Flexible Approach to Autotuning Multi-Pass Machine Learning Compilers](https://mangpo.net/papers/xla-autotuning-pact2021.pdf) by Phitchaya Mangpo Phothilimthana et al., PACT 2021
