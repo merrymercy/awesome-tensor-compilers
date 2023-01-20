@@ -194,7 +194,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [A Framework for Sparse Matrix Code Synthesis from High-level Specifications](https://ieeexplore.ieee.org/document/1592771) by Nawaaz Ahmed et al., SC 2000
 - [Automatic Nonzero Structure Analysis](https://epubs.siam.org/doi/epdf/10.1137/S009753979529595X) by Aart Bik et al., SIAM Journal on Computing 1999
 - [SIPR: A New Framework for Generating Efficient Code for Sparse Matrix Computations](https://link.springer.com/chapter/10.1007/3-540-48319-5_14) by William Pugh et al., LCPC 1998
-- [Automatic Data Structure Selection and Transformation for Sparse Matrix Computations](https://ieeexplore.ieee.org/document/485501) by Aart Bik et al., Aart Bik et al., TPDS 1996
+- [Automatic Data Structure Selection and Transformation for Sparse Matrix Computations](https://ieeexplore.ieee.org/document/485501) by Aart Bik et al., TPDS 1996
 - [Compilation Techniques for Sparse Matrix Computations](https://dl.acm.org/doi/pdf/10.1145/165939.166023) by Aart Bik et al., ICS 1993
 
 
