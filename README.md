@@ -126,6 +126,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [AKG: Automatic Kernel Generation for Neural Processing Units using Polyhedral Transformations](https://www.di.ens.fr/~zhaojie/pldi2021-paper) by Jie Zhao et al., PLDI 2021
 
 ### Graph-level Optimization
+- [Collage: Seamless Integration of Deep Learning Backends with Automatic Placement](https://arxiv.org/abs/2111.00655) by Byungsoo Jeon et al., PACT 2022
 - [Apollo: Automatic Partition-based Operator Fusion through Layer by Layer Optimization](https://proceedings.mlsys.org/paper/2022/hash/069059b7ef840f0c74a814ec9237b6ec-Abstract.html) by Jie Zhao et al., MLSys 2022
 - [Equality Saturation for Tensor Graph Superoptimization](https://arxiv.org/abs/2101.01332) by Yichen Yang et al., MLSys 2021
 - [IOS: An Inter-Operator Scheduler for CNN Acceleration](https://arxiv.org/abs/2011.01302) by Yaoyao Ding et al., MLSys 2021
