@@ -54,7 +54,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 ### Compiler and IR Design
 - [Hidet: Task-Mapping Programming Paradigm for Deep Learning Tensor Programs](https://arxiv.org/abs/2210.09603) by Yaoyao Ding et al., ASPLOS 2023
 - [TensorIR: An Abstraction for Automatic Tensorized Program Optimization](https://arxiv.org/abs/2207.04296) by Siyuan Feng, Bohan Hou et al., ASPLOS 2023
-- [Exocompilation for Productive Programming of Hardware Accelerators](https://dl.acm.org/doi/pdf/10.1145/3519939.3523446) by Yuka Ikarashi, Gilbert Louis Bernstein et al., PLDI 2022
+- [Exocompilation for Productive Programming of Hardware Accelerators](https://dl.acm.org/doi/abs/10.1145/3519939.3523446) by Yuka Ikarashi, Gilbert Louis Bernstein et al., PLDI 2022
 - [DaCeML: A Data-Centric Compiler for Machine Learning](https://arxiv.org/abs/2110.10802) by Oliver Rausch et al., ICS 22
 - [FreeTensor: A Free-Form DSL with Holistic Optimizations for Irregular Tensor Programs](https://dl.acm.org/doi/10.1145/3519939.3523448) by Shizhi Tang et al., PLDI 2022
 - [Roller: Fast and Efficient Tensor Compilation for Deep Learning](https://www.usenix.org/conference/osdi22/presentation/zhu) by Hongyu Zhu et al., OSDI 2022
@@ -85,12 +85,12 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Autoscheduling for sparse tensor algebra with an asymptotic cost model](https://dl.acm.org/doi/abs/10.1145/3519939.3523442) by Peter Ahrens et al., PLDI 2022
 - [Bolt: Bridging the Gap between Auto-tuners and Hardware-native Performance](https://proceedings.mlsys.org/paper/2022/hash/38b3eff8baf56627478ec76a704e9b52-Abstract.html) by Jiarong Xing et al., MLSys 2022
 - [A Full-Stack Search Technique for Domain Optimized Deep Learning Accelerators](https://dl.acm.org/doi/10.1145/3503222.3507767) by Dan Zhang et al., ASPLOS 2022
-- [Efficient Automatic Scheduling of Imaging and Vision Pipelines for the GPU](https://dl.acm.org/doi/pdf/10.1145/3485486) by Luke Anderson et al., OOPSLA 2021
+- [Efficient Automatic Scheduling of Imaging and Vision Pipelines for the GPU](https://dl.acm.org/doi/10.1145/3485486) by Luke Anderson et al., OOPSLA 2021
 - [Lorien: Efficient Deep Learning Workloads Delivery](https://dl.acm.org/doi/abs/10.1145/3472883.3486973) by Cody Hao Yu et al., SoCC 2021
 - [Value Learning for Throughput Optimization of Deep Neural Networks](https://proceedings.mlsys.org/paper/2021/hash/73278a4a86960eeb576a8fd4c9ec6997-Abstract.html) by Benoit Steiner et al., MLSys 2021
 - [A Flexible Approach to Autotuning Multi-Pass Machine Learning Compilers](https://mangpo.net/papers/xla-autotuning-pact2021.pdf) by Phitchaya Mangpo Phothilimthana et al., PACT 2021
 - [Ansor: Generating High-Performance Tensor Programs for Deep Learning](https://arxiv.org/abs/2006.06762) by Lianmin Zheng et al., OSDI 2020
-- [Schedule Synthesis for Halide Pipelines on GPUs](https://dl.acm.org/doi/fullHtml/10.1145/3406117) by Sioutas Savvas et al., TACO 2020
+- [Schedule Synthesis for Halide Pipelines on GPUs](https://dl.acm.org/doi/abs/10.1145/3406117) by Sioutas Savvas et al., TACO 2020
 - [FlexTensor: An Automatic Schedule Exploration and Optimization Framework for Tensor Computation on Heterogeneous System](https://dl.acm.org/doi/abs/10.1145/3373376.3378508) by Size Zheng et al., ASPLOS 2020
 - [ProTuner: Tuning Programs with Monte Carlo Tree Search](https://arxiv.org/abs/2005.13685) by Ameer Haj-Ali et al., arXiv 2020
 - [AdaTune: Adaptive tensor program compilation made efficient](https://www.microsoft.com/en-us/research/uploads/prod/2020/10/nips20adatune.pdf) by Menghao Li et al., NeurIPS 2020
@@ -175,28 +175,28 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Stardust: Compiling Sparse Tensor Algebra to a Reconfigurable Dataflow Architecture](https://arxiv.org/abs/2211.03251) by Olivia Hsu et al., arXiv 2022
 - [The Sparse Abstract Machine](https://arxiv.org/abs/2208.14610) by Olivia Hsu et al., arXiv 2022
 - [Unified Compilation for Lossless Compression and Sparse Computing](https://dl.acm.org/doi/10.1109/CGO53902.2022.9741282) by Daniel Donenfeld et al., CGO 2022
-- [SparseLNR: Accelerating Sparse Tensor Computations Using Loop Nest Restructuring](https://dl.acm.org/doi/pdf/10.1145/3524059.3532386) by Adhitha Dias et al., ICS 2022
+- [SparseLNR: Accelerating Sparse Tensor Computations Using Loop Nest Restructuring](https://dl.acm.org/doi/abs/10.1145/3524059.3532386) by Adhitha Dias et al., ICS 2022
 - [SparTA: Deep-Learning Model Sparsity via Tensor-with-Sparsity-Attribute](https://www.usenix.org/conference/osdi22/presentation/zheng-ningxin) by Ningxin Zheng et al., OSDI 2022
 - [Compiler Support for Sparse Tensor Computations in MLIR](https://arxiv.org/abs/2202.04305) by Aart J.C. Bik et al., TACO 2022
-- [Compilation of Sparse Array Programming Models](https://dl.acm.org/doi/pdf/10.1145/3485505) by Rawn Henry and Olivia Hsu et al., OOPSLA 2021
+- [Compilation of Sparse Array Programming Models](https://dl.acm.org/doi/abs/10.1145/3485505) by Rawn Henry and Olivia Hsu et al., OOPSLA 2021
 - [A High Performance Sparse Tensor Algebra Compiler in MLIR](https://ieeexplore.ieee.org/document/9651314) by Ruiqin Tian et al., LLVM-HPC 2021
 - [Dynamic Sparse Tensor Algebra Compilation](https://arxiv.org/abs/2112.01394) by Stephen Chou et al., arXiv 2021
-- [Automatic Generation of Efficient Sparse Tensor Format Conversion Routines](https://dl.acm.org/doi/pdf/10.1145/3385412.3385963) by Stephen Chou et al., PLDI 2020
+- [Automatic Generation of Efficient Sparse Tensor Format Conversion Routines](https://dl.acm.org/doi/abs/10.1145/3385412.3385963) by Stephen Chou et al., PLDI 2020
 - [TIRAMISU: A Polyhedral Compiler for Dense and Sparse Deep Learning](https://arxiv.org/abs/2005.04091) by Riyadh Baghdadi et al., arXiv 2020
 - [Tensor Algebra Compilation with Workspaces](https://dl.acm.org/doi/abs/10.5555/3314872.3314894) by Fredrik Kjolstad et al., CGO 2019
 - [Sparse Computation Data Dependence Simplification for Efficient Compiler-Generated Inspectors](https://dl.acm.org/doi/10.1145/3314221.3314646) by Mahdi Soltan Mohammadi et al., PLDI 2019
-- [Taichi: A Language for High-Performance Computation on Spatially Sparse Data Structures](https://dl.acm.org/doi/pdf/10.1145/3355089.3356506) by Yuanming Hu et al., ACM ToG 2019
+- [Taichi: A Language for High-Performance Computation on Spatially Sparse Data Structures](https://dl.acm.org/doi/abs/10.1145/3355089.3356506) by Yuanming Hu et al., ACM ToG 2019
 - [The Sparse Polyhedral Framework: Composing Compiler-Generated Inspector-Executor Code](https://ieeexplore.ieee.org/document/8436444) by Michelle Mills Strout et al., Proceedings of the IEEE 2018
-- [Format Abstraction for Sparse Tensor Algebra Compilers](https://dl.acm.org/doi/pdf/10.1145/3276493) by Stephen Chou et al., OOPSLA 2018
+- [Format Abstraction for Sparse Tensor Algebra Compilers](https://dl.acm.org/doi/abs/10.1145/3276493) by Stephen Chou et al., OOPSLA 2018
 - [ParSy: Inspection and Transformation of Sparse Matrix Computations for Parallelism](https://ieeexplore.ieee.org/document/8665791) by Kazem Cheshmi et al., SC 2018
 - [Sympiler: Transforming Sparse Matrix Codes by Decoupling Symbolic Analysis](https://dl.acm.org/doi/10.1145/3126908.3126936) by Kazem Cheshmi et al., SC 2017
-- [The Tensor Algebra Compiler](https://dl.acm.org/doi/pdf/10.1145/3133901) by Fredrik Kjolstad et al., OOPSLA 2017
-- [Next-generation Generic Programming and its Application to Sparse Matrix Computations](https://dl.acm.org/doi/pdf/10.1145/335231.335240) by Nikolay Mateev et al., ICS 2000
+- [The Tensor Algebra Compiler](https://dl.acm.org/doi/abs/10.1145/3133901) by Fredrik Kjolstad et al., OOPSLA 2017
+- [Next-generation Generic Programming and its Application to Sparse Matrix Computations](https://dl.acm.org/doi/abs/10.1145/335231.335240) by Nikolay Mateev et al., ICS 2000
 - [A Framework for Sparse Matrix Code Synthesis from High-level Specifications](https://ieeexplore.ieee.org/document/1592771) by Nawaaz Ahmed et al., SC 2000
-- [Automatic Nonzero Structure Analysis](https://epubs.siam.org/doi/epdf/10.1137/S009753979529595X) by Aart Bik et al., SIAM Journal on Computing 1999
+- [Automatic Nonzero Structure Analysis](https://epubs.siam.org/doi/10.1137/S009753979529595X) by Aart Bik et al., SIAM Journal on Computing 1999
 - [SIPR: A New Framework for Generating Efficient Code for Sparse Matrix Computations](https://link.springer.com/chapter/10.1007/3-540-48319-5_14) by William Pugh et al., LCPC 1998
 - [Automatic Data Structure Selection and Transformation for Sparse Matrix Computations](https://ieeexplore.ieee.org/document/485501) by Aart Bik et al., TPDS 1996
-- [Compilation Techniques for Sparse Matrix Computations](https://dl.acm.org/doi/pdf/10.1145/165939.166023) by Aart Bik et al., ICS 1993
+- [Compilation Techniques for Sparse Matrix Computations](https://dl.acm.org/doi/abs/10.1145/165939.166023) by Aart Bik et al., ICS 1993
 
 
 ### Program Rewriting
@@ -205,10 +205,10 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Equality Saturation for Tensor Graph Superoptimization](https://arxiv.org/abs/2101.01332) by Yichen Yang et al., MLSys 2021
 
 ### Verification and Testing
-- [Coverage-guided tensor compiler fuzzing with joint IR-pass mutation](https://dl.acm.org/doi/pdf/10.1145/3527317) by Jiawei Liu et al., OOPSLA 2022
+- [Coverage-guided tensor compiler fuzzing with joint IR-pass mutation](https://dl.acm.org/doi/abs/10.1145/3527317) by Jiawei Liu et al., OOPSLA 2022
 - [End-to-End Translation Validation for the Halide Language](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/2d03e3ae1106d3a2c950fcdc5eeb2c383eb24372.pdf) by Basile Clément et al., OOPSLA 2022
 - [A comprehensive study of deep learning compiler bugs](https://dl.acm.org/doi/abs/10.1145/3468264.3468591) by Qingchao Shen et al., ESEC/FSE 2021
-- [Verifying and Improving Halide’s Term Rewriting System with Program Synthesis](https://dl.acm.org/doi/pdf/10.1145/3428234) by Julie L. Newcomb et al., OOPSLA 2020
+- [Verifying and Improving Halide’s Term Rewriting System with Program Synthesis](https://dl.acm.org/doi/abs/10.1145/3428234) by Julie L. Newcomb et al., OOPSLA 2020
 
 ## Tutorials
 - [Machine Learning Compilation](https://mlc.ai/summer22/)
@@ -218,4 +218,4 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 We encourage all contributions to this repository. Open an [issue](https://github.com/merrymercy/awesome-tensor-compilers/issues) or send a [pull request](https://github.com/merrymercy/awesome-tensor-compilers/pulls).
 
 ### Notes on the Link Format
-We prefer using a link which points to a more informative page instead of a single pdf. For example, for arxiv papers, we prefer https://arxiv.org/abs/1802.04799 over https://arxiv.org/pdf/1802.04799.pdf. For OSDI papers, we prefer https://www.usenix.org/conference/osdi18/presentation/chen over https://www.usenix.org/system/files/osdi18-chen.pdf
+We prefer using a link which points to a more informative page instead of a single pdf. For example, for arxiv papers, we prefer https://arxiv.org/abs/1802.04799 over https://arxiv.org/pdf/1802.04799.pdf. For USENIX papers (OSDI/ATC), we prefer https://www.usenix.org/conference/osdi18/presentation/chen over https://www.usenix.org/system/files/osdi18-chen.pdf. For ACM papers (ASPLOS/PLDI/Eurosys), we prefer https://dl.acm.org/doi/abs/10.1145/3519939.3523446 over https://dl.acm.org/doi/pdf/10.1145/3519939.3523446.
