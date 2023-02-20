@@ -169,7 +169,9 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Automatic Generation of High-Performance Quantized Machine Learning Kernels](https://dl.acm.org/doi/10.1145/3368826.3377912) by Meghan Cowan et al., CGO 2020
 
 ### Sparse
+- [The Sparse Abstract Machine](https://arxiv.org/abs/2208.14610) by Olivia Hsu et al., ASPLOS 2023
 - [SparseTIR: Composable Abstractions for Sparse Compilation in Deep Learning](https://arxiv.org/abs/2207.04606) by Zihao Ye et al., ASPLOS 2023
+- [WACO: Learning Workload-Aware Co-optimization of the Format and Schedule of a Sparse Tensor Program](https://dl.acm.org/doi/10.1145/3575693.3575742) by Jaeyeon Won et al., ASPLOS 2023
 - [Looplets: A Language For Structured Coiteration](https://arxiv.org/abs/2209.05250) by Willow Ahrens et al., CGO 2023
 - [Code Synthesis for Sparse Tensor Format Conversion and Optimization](https://www.researchgate.net/publication/367180198_Code_Synthesis_for_Sparse_Tensor_Format_Conversion_and_Optimization) by Tobi Popoola et al., CGO 2023
 - [Stardust: Compiling Sparse Tensor Algebra to a Reconfigurable Dataflow Architecture](https://arxiv.org/abs/2211.03251) by Olivia Hsu et al., arXiv 2022
