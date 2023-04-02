@@ -122,6 +122,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Analytical cache modeling and tilesize optimization for tensor contractions](https://dl.acm.org/doi/abs/10.1145/3295500.3356218) by Rui Li et al., SC 19
 
 ### NPU Optimization
+- [Heron: Automatically Constrained High-Performance Library Generation for Deep Learning Accelerators](https://dl.acm.org/doi/10.1145/3582016.3582061) by Jun Bi et al., ASPLOS 2023
 - [AMOS: Enabling Automatic Mapping for Tensor Computations On Spatial Accelerators with Hardware Abstraction](https://cs.stanford.edu/~anjiang/papers/ZhengETAL22AMOS.pdf) by Size Zheng et al., ISCA 2022
 - [Towards the Co-design of Neural Networks and Accelerators](https://proceedings.mlsys.org/paper/2022/hash/31fefc0e570cb3860f2a6d4b38c6490d-Abstract.html) by Yanqi Zhou et al., MLSys 2022
 - [AKG: Automatic Kernel Generation for Neural Processing Units using Polyhedral Transformations](https://www.di.ens.fr/~zhaojie/pldi2021-paper) by Jie Zhao et al., PLDI 2021
