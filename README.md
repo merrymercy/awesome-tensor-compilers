@@ -109,6 +109,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [A Learned Performance Model for the Tensor Processing Unit](https://arxiv.org/abs/2008.01040) by Samuel J. Kaufman et al., MLSys 2021
 - [DYNATUNE: Dynamic Tensor Program Optimization in Deep Neural Network Compilation](https://openreview.net/forum?id=GTGb3M_KcUl) by Minjia Zhang et al., ICLR 2021
 - [MetaTune: Meta-Learning Based Cost Model for Fast and Efficient Auto-tuning Frameworks](https://arxiv.org/abs/2102.04199) by Jaehun Ryu et al., arxiv 2021
+- [Expedited Tensor Program Compilation Based on LightGBM](https://iopscience.iop.org/article/10.1088/1742-6596/2078/1/012019) by Gonghan Liu1 et al., JPCS 2021
 
 ### CPU and GPU Optimization
 - [DeepCuts: A deep learning optimization framework for versatile GPU workloads](https://pldi21.sigplan.org/details/pldi-2021-papers/13/DeepCuts-A-Deep-Learning-Optimization-Framework-for-Versatile-GPU-Workloads) by Wookeun Jung et al., PLDI 2021
