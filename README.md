@@ -52,6 +52,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [An In-depth Comparison of Compilers for DeepNeural Networks on Hardware](https://ieeexplore.ieee.org/document/8782480) by Yu Xing et al., ICESS 2019
 
 ### Compiler and IR Design
+- [BladeDISC: Optimizing Dynamic Shape Machine Learning Workloads via Compiler Approach](https://dl.acm.org/doi/10.1145/3617327) by Zhen Zheng et al., SIGMOD 2024
 - [Hidet: Task-Mapping Programming Paradigm for Deep Learning Tensor Programs](https://arxiv.org/abs/2210.09603) by Yaoyao Ding et al., ASPLOS 2023
 - [TensorIR: An Abstraction for Automatic Tensorized Program Optimization](https://arxiv.org/abs/2207.04296) by Siyuan Feng, Bohan Hou et al., ASPLOS 2023
 - [Exocompilation for Productive Programming of Hardware Accelerators](https://dl.acm.org/doi/abs/10.1145/3519939.3523446) by Yuka Ikarashi, Gilbert Louis Bernstein et al., PLDI 2022
