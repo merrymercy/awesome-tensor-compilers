@@ -44,6 +44,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 - [Speedster: Automatically apply SOTA optimization techniques to achieve the maximum inference speed-up on your hardware](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/speedster)
 - [NN-512: A Compiler That Generates C99 Code for Neural Net Inference](https://nn-512.com/)
 - [DaCeML: A Data-Centric Compiler for Machine Learning](https://github.com/spcl/daceml)
+- [Mirage: A Multi-level Superoptimizer for Tensor Algebra](https://github.com/mirage-project/mirage)
 
 ## Papers
 
