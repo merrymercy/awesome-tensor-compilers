@@ -82,6 +82,7 @@ A list of awesome compiler projects and papers for tensor computation and deep l
 
 
 ### Auto-tuning and Auto-scheduling
+- [Accelerated Auto-Tuning of GPU Kernels for Tensor Computations](https://dl.acm.org/doi/10.1145/3650200.3656626) by Chendi Li, Yufan Xu et al., ICS 2024
 - [Enabling Tensor Language Model to Assist in Generating High-Performance Tensor Programs for Deep Learning](https://www.usenix.org/conference/osdi24/presentation/zhai) by Yi Zhai et al., OSDI 2024
 - [The Droplet Search Algorithm for Kernel Scheduling](https://dl.acm.org/doi/10.1145/3650109) by Michael Canesche et al., ACM TACO 2024
 - [Tensor Program Optimization with Probabilistic Programs](https://arxiv.org/abs/2205.13603) by Junru Shao et al., NeurIPS 2022
